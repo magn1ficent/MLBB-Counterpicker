@@ -89,22 +89,22 @@ function buildSummary(reasons) {
   const negative = reasons.filter((reason) => reason.value < 0).map((reason) => reason.label);
 
   if (positive.length >= 2) {
-    return `Хорош против: ${positive.slice(0, 2).join(", ")}`;
+    return `Good against: ${positive.slice(0, 2).join(", ")}`;
   }
   if (positive.length === 1) {
-    return `Сильный ответ на: ${positive[0]}`;
+    return `Strong answer to: ${positive[0]}`;
   }
   if (negative.length) {
-    return `Осторожно: конфликт с ${negative[0]}`;
+    return `Caution: role overlap with ${negative[0]}`;
   }
-  return "Нейтральный вариант";
+  return "Neutral option";
 }
 
 export function renderRecs(els) {
   if (!state.enemyPicks.length) {
     els.recsTabs.innerHTML = "";
     els.recsContent.innerHTML =
-      '<div class="recs-empty"><div class="recs-empty-icon">⚔️</div>Добавь хотя бы 1 пик врага<br>и появятся рекомендации</div>';
+      '<div class="recs-empty"><div class="recs-empty-icon">⚔️</div>Add at least 1 enemy pick<br>to see recommendations</div>';
     return;
   }
 
@@ -129,8 +129,8 @@ export function renderRecs(els) {
   if (!items.length) {
     els.recsContent.innerHTML = `<div class="recs-empty">${
       state.onlyMine
-        ? "Среди ваших героев нет сильного контрпика для этой роли"
-        : "Для этой роли сейчас нет сильного контрпика"
+        ? "No strong counterpick from your hero pool for this role"
+        : "No strong counterpick for this role right now"
     }</div>`;
     return;
   }
@@ -149,10 +149,10 @@ export function renderRecs(els) {
       .join("");
     const why = shownReasons.length
       ? shownReasons.map(buildReasonHtml).join("")
-      : '<span class="rec-factor-empty">нет данных</span>';
+      : '<span class="rec-factor-empty">No data</span>';
     const note =
       reasons.length > shownReasons.length
-        ? `Показано ${shownReasons.length} из ${reasons.length} причин`
+        ? `Showing ${shownReasons.length} of ${reasons.length} reasons`
         : "";
 
     const iconUrl = getIconUrl(hero.id);

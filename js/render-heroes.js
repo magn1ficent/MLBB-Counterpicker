@@ -35,11 +35,11 @@ export function renderGrid(els, callbacks) {
   });
 
   heroes.sort((a, b) => a.name.localeCompare(b.name));
-  els.poolCount.textContent = `${heroes.length} героев`;
+  els.poolCount.textContent = `${heroes.length} heroes`;
   els.heroGrid.innerHTML = "";
 
   if (!heroes.length) {
-    els.heroGrid.innerHTML = '<div class="empty-grid">Ничего не найдено</div>';
+    els.heroGrid.innerHTML = '<div class="empty-grid">Nothing found</div>';
     return;
   }
 
@@ -69,10 +69,12 @@ export function renderGrid(els, callbacks) {
           }
           <div class="hero-initials" style="${iconUrl ? "display:none" : "display:flex"}">${escapeHtml(initials(hero.name))}</div>
         </div>
-        <button class="star-btn${starred ? " on" : ""}" type="button" title="${starred ? "Убрать из моих героев" : "Добавить в мои герои"}" aria-label="${starred ? "Убрать из моих героев" : "Добавить в мои герои"}">${starred ? "★" : "☆"}</button>
         <div class="hero-info">
           <div class="hero-name">${escapeHtml(hero.name)}</div>
+        </div>
+        <div class="hero-meta">
           <div class="hero-role-list">${roleBadges}</div>
+          <button class="star-btn${starred ? " on" : ""}" type="button" title="${starred ? "Remove from My Heroes" : "Add to My Heroes"}" aria-label="${starred ? "Remove from My Heroes" : "Add to My Heroes"}">${starred ? "★" : "☆"}</button>
         </div>
       </div>
       <div class="hero-card-actions">

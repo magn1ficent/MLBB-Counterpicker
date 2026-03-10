@@ -27,7 +27,7 @@ function renderRow(container, ids, type, onRemove) {
       }
       <div class="d-slot-overlay"><div class="d-slot-name">${escapeHtml(hero.name)}</div></div>
       <div class="d-badge ${type}">${type === "pick" ? "PICK" : type === "ban" ? "BAN" : "ALLY"}</div>
-      <button class="d-remove" type="button" aria-label="Удалить">✕</button>
+      <button class="d-remove" type="button" aria-label="Remove">×</button>
     `;
 
     const image = slot.querySelector(".d-slot-img");
@@ -64,6 +64,9 @@ export function renderDraft(els, callbacks) {
   els.alliesSection.classList.toggle("open", state.allyPicks.length > 0);
   els.bansSection.classList.toggle("open", state.enemyBans.length > 0);
   els.picksSection.classList.toggle("open", state.enemyPicks.length > 0);
+  els.alliesSection.classList.toggle("empty", state.allyPicks.length === 0);
+  els.bansSection.classList.toggle("empty", state.enemyBans.length === 0);
+  els.picksSection.classList.toggle("empty", state.enemyPicks.length === 0);
   els.alliesHeader.setAttribute("aria-expanded", String(state.allyPicks.length > 0));
   els.bansHeader.setAttribute("aria-expanded", String(state.enemyBans.length > 0));
   els.picksHeader.setAttribute("aria-expanded", String(state.enemyPicks.length > 0));

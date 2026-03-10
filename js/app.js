@@ -149,7 +149,7 @@ async function init() {
       state.heroById[hero.id] = hero;
     }
 
-    els.statusPill.textContent = `${heroes.length} героев · ${counters.length} связей`;
+    els.statusPill.textContent = `${heroes.length} heroes · ${counters.length} links`;
     els.loadingOverlay.classList.add("hidden");
     els.searchClear.classList.toggle("visible", Boolean(els.search.value.trim()));
     els.mineToggle.classList.toggle("on", state.onlyMine);
@@ -161,7 +161,7 @@ async function init() {
     els.loadingOverlay.classList.add("hidden");
     els.errorBox.style.display = "flex";
     els.errorMsg.textContent =
-      `Открой через локальный сервер:\npython -m http.server 8000\n\n${err.message}`;
+      `Open through a local server:\npython -m http.server 8000\n\n${err.message}`;
   }
 }
 

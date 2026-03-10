@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>MLBB Draft Counter</title>
-  <meta name="description" content="Пики и баны врага → топ рекомендации на каждую позицию" />
+  <meta name="description" content="Enemy picks and bans to role-based hero recommendations." />
   <meta name="theme-color" content="#070A13" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,11 +15,11 @@
 <body>
   <div class="loading-overlay" id="loadingOverlay">
     <div class="load-icon">ML</div>
-    <div class="load-text">Загрузка базы...</div>
+    <div class="load-text">Loading data...</div>
   </div>
   <div class="error-box" id="errorBox">
     <div class="error-inner">
-      <div class="error-title">Ошибка загрузки</div>
+      <div class="error-title">Loading Error</div>
       <div class="error-msg" id="errorMsg"></div>
     </div>
   </div>
@@ -38,11 +38,11 @@
             <circle cx="11" cy="11" r="8"></circle>
             <path d="M21 21l-4.35-4.35"></path>
           </svg>
-          <input id="search" placeholder="Поиск героя..." autocomplete="off" aria-label="Поиск героя" />
-          <button class="search-clear" id="searchClear" type="button" aria-label="Очистить поиск">✕</button>
+          <input id="search" placeholder="Search hero..." autocomplete="off" aria-label="Search hero" />
+          <button class="search-clear" id="searchClear" type="button" aria-label="Clear search">×</button>
         </div>
         <button class="btn-demo" id="demoBtn" type="button">Demo</button>
-        <button class="btn-clear" id="clearBtn" type="button">Сброс</button>
+        <button class="btn-clear" id="clearBtn" type="button">Reset</button>
         <div class="status-pill" id="statusPill">—</div>
       </div>
     </header>
@@ -52,19 +52,19 @@
         <div class="pool-header">
           <div class="pool-title-row">
             <div>
-              <div class="pool-title">Пул героев</div>
+              <div class="pool-title">Hero Pool</div>
             </div>
             <div class="pool-count" id="poolCount">—</div>
           </div>
           <div class="role-bar">
-            <button class="role-chip active" data-role="All" type="button"><span class="role-dot rd-All"></span>Все</button>
+            <button class="role-chip active" data-role="All" type="button"><span class="role-dot rd-All"></span>All</button>
             <button class="role-chip" data-role="Roam" type="button"><span class="role-dot rd-Roam"></span>Roam</button>
             <button class="role-chip" data-role="Jungle" type="button"><span class="role-dot rd-Jungle"></span>Jungle</button>
             <button class="role-chip" data-role="Mid" type="button"><span class="role-dot rd-Mid"></span>Mid</button>
             <button class="role-chip" data-role="Gold" type="button"><span class="role-dot rd-Gold"></span>Gold</button>
             <button class="role-chip" data-role="Exp" type="button"><span class="role-dot rd-Exp"></span>Exp</button>
             <button class="mine-toggle" id="mineToggle" type="button" aria-pressed="false">
-              Мои герои
+              My Heroes
               <span class="toggle-track"></span>
             </button>
           </div>
@@ -78,7 +78,7 @@
         <div class="draft-scroll">
           <div class="allies-section" id="alliesSection">
             <button class="allies-header" id="alliesHeader" type="button" aria-expanded="false">
-              <span class="allies-title">Союзники</span>
+              <span class="allies-title">Allies</span>
               <span class="section-count" id="allyCount">0/5</span>
               <span class="allies-chevron">▾</span>
             </button>
@@ -86,9 +86,10 @@
               <div class="draft-row" id="allyRow"></div>
             </div>
           </div>
+
           <div class="bans-section" id="bansSection">
             <button class="bans-header" id="bansHeader" type="button" aria-expanded="false">
-              <span class="bans-title">Баны</span>
+              <span class="bans-title">Bans</span>
               <span class="section-count" id="banCount">0/5</span>
               <span class="bans-chevron">▾</span>
             </button>
@@ -99,7 +100,7 @@
 
           <div class="picks-section" id="picksSection">
             <button class="picks-header" id="picksHeader" type="button" aria-expanded="false">
-              <span class="picks-title">Пики врага</span>
+              <span class="picks-title">Enemy Picks</span>
               <span class="section-count" id="pickCount">0/5</span>
               <span class="picks-chevron">▾</span>
             </button>
@@ -110,13 +111,13 @@
 
           <div style="flex:1">
             <div class="section-head">
-              <span class="section-title">Рекомендации</span>
+              <span class="section-title">Recommendations</span>
             </div>
             <div class="recs-tabs" id="recsTabs"></div>
             <div id="recsContent"></div>
             <div class="score-legend">
-              <div class="leg-dot" style="background:var(--green)"></div><span>Сильнее</span>
-              <div class="leg-dot" style="background:var(--red);margin-left:10px"></div><span>Слабее</span>
+              <div class="leg-dot" style="background:var(--green)"></div><span>Stronger</span>
+              <div class="leg-dot" style="background:var(--red);margin-left:10px"></div><span>Weaker</span>
             </div>
           </div>
         </div>
