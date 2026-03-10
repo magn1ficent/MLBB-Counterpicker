@@ -1,0 +1,2376 @@
+gloo Gloo roam, exp
+gloo > lesley = 2
+gloo > aamon = 2
+gloo > bruno = 2
+gloo > granger = 2
+gloo > brody = 2
+gloo > cecilion = 2
+gloo > change = 2
+gloo > johnson = 2
+gloo > jawhead = 2
+gloo > vale = 2
+gloo > faramis = -2
+gloo > alice = -2
+gloo > natan = -2
+gloo > ruby = -2
+gloo > yve = -2
+gloo > karrie = -2
+
+lolita Lolita roam
+lolita > cyclops = 2
+lolita > edith = 2
+lolita > change = 2
+lolita > kimmy = 2
+lolita > bane = 2
+lolita > bruno = 2
+lolita > yve = -2
+lolita > harith = -2
+lolita > melissa = -2
+lolita > natalia = -2
+lolita > aurora = -2
+lolita > ling = -2
+lolita > paquito = -2
+
+masha Masha exp
+masha > yuzhong = 2
+masha > saber = 2
+masha > chip = 2
+masha > brody = 2
+masha > wanwan = 2
+masha > ixia = 2
+masha > layla = 2
+masha > khaleed = 2
+masha > guinevere = 2
+masha > faramis = -2
+masha > sun = -2
+masha > argus = -2
+masha > ruby = -2
+masha > minotaur = -2
+masha > cici = -2
+masha > thamuz = -2
+
+diggie Diggie roam
+diggie > tigreal = 2
+diggie > atlas = 2
+diggie > chip = 2
+diggie > alpha = 2
+diggie > khufra = 2
+diggie > lolita = 1
+diggie > faramis = 2
+diggie > alice = 2
+diggie > ruby = 2
+diggie > zhuxin = 1
+diggie > estes = -2
+diggie > khaleed = -2
+diggie > sun = -2
+diggie > floryn = -2
+diggie > ling = -2
+diggie > aamon = -2
+
+floryn Floryn roam
+floryn > diggie = 2
+floryn > alice = 2
+floryn > x.borg = 2
+floryn > zetian = 2
+floryn > gatotkaca = 2
+floryn > uranus = 2
+floryn > lolita = 1
+floryn > ling = 2
+floryn > faramis = 2
+floryn > khaleed = 2
+floryn > yin = -2
+floryn > nolan = -2
+floryn > silvanna = -2
+floryn > ixia = -2
+floryn > karina = -2
+floryn > saber = -2
+
+kaja Kaja roam
+kaja > lapulapu = 2
+kaja > wanwan = 2
+kaja > matilda = 2
+kaja > belerick = 2
+kaja > khaleed = 2
+kaja > fanny = 2
+kaja > lancelot = 2
+kaja > gloo = 2
+kaja > faramis = 2
+kaja > carmilla = 2
+kaja > zhask = -2
+kaja > phoveus = -2
+kaja > rafaela = -2
+kaja > cyclops = -2
+kaja > lolita = -2
+kaja > layla = -2
+kaja > pharsa = -2
+
+hanabi Hanabi gold
+hanabi > popol = 2
+hanabi > khufra = 1
+hanabi > barats = 1
+hanabi > akai = 1
+hanabi > minotaur = 1
+hanabi > tigreal = 1
+hanabi > belerick = 1
+hanabi > chip = 1
+hanabi > valentina = 1
+hanabi > lolita = -2
+hanabi > beatrix = -2
+hanabi > ixia = -2
+hanabi > granger = -2
+hanabi > natalia = -2
+hanabi > lancelot = -2
+hanabi > zilong = -2
+
+estes Estes roam
+estes > diggie = 2
+estes > chip = 2
+estes > alice = 2
+estes > lesley = 2
+estes > cyclops = 2
+estes > valir = 2
+estes > faramis = 2
+estes > uranus = 2
+estes > ixia = -2
+estes > yin = -2
+estes > beatrix = -2
+estes > nolan = -2
+estes > atlas = -2
+estes > saber = -2
+estes > eudora = -2
+
+sun Sun exp, jungle
+sun > masha = 2
+sun > diggie = 2
+sun > jawhead = 2
+sun > cici = 2
+sun > karrie = 2
+sun > franco = 2
+sun > gatotkaca = 2
+sun > saber = 2
+sun > ruby = -2
+sun > aldous = -2
+sun > joy = -2
+sun > alucard = -2
+sun > faramis = -2
+
+minotaur Minotaur roam
+minotaur > lolita = 2
+minotaur > khufra = 2
+minotaur > masha = 2
+minotaur > johnson = 2
+minotaur > popol = 2
+minotaur > paquito = 1
+minotaur > julian = 1
+minotaur > luoyi = -2
+minotaur > xavier = -2
+minotaur > ixia = -2
+minotaur > baxia = -2
+minotaur > fanny = -2
+minotaur > layla = -1
+minotaur > lesley = -1
+
+silvanna Silvanna exp
+silvanna > floryn = 2
+silvanna > aamon = 2
+silvanna > angela = 2
+silvanna > sun = 2
+silvanna > rafaela = 2
+silvanna > layla = 2
+silvanna > valir = 2
+silvanna > valentina = 2
+silvanna > barats = -2
+silvanna > benedetta = -2
+silvanna > edith = -2
+silvanna > khufra = -2
+silvanna > lapulapu = -2
+silvanna > martis = -2
+
+hilda Hilda roam, exp
+hilda > diggie = 2
+hilda > granger = 2
+hilda > nolan = 2
+hilda > ling = 2
+hilda > irithel = 2
+hilda > zilong = 2
+hilda > layla = 2
+hilda > novaria = 2
+hilda > aamon = -2
+hilda > karrie = -2
+hilda > alpha = -2
+hilda > kimmy = -2
+hilda > sun = -2
+hilda > thamuz = -2
+hilda > uranus = -2
+
+aulus Aulus jungle
+aulus > chip = 2
+aulus > balmond = 2
+aulus > alice = 2
+aulus > lolita = 2
+aulus > esmeralda = 2
+aulus > hanabi = 2
+aulus > yve = 2
+aulus > gord = 2
+aulus > valentina = 1
+aulus > joy = 1
+aulus > phoveus = 1
+aulus > odette = 1
+aulus > zhuxin = -2
+aulus > ixia = -2
+aulus > atlas = -2
+aulus > thamuz = -2
+aulus > brody = -2
+aulus > franco = -2
+aulus > wanwan = -2
+
+argus Argus exp
+argus > masha = 2
+argus > saber = 2
+argus > minsitthar = 2
+argus > arlott = 2
+argus > karrie = 2
+argus > gord = 2
+argus > aurora = 2
+argus > odette = 2
+argus > barats = -2
+argus > esmeralda = -2
+argus > terizla = -2
+argus > mathilda = -2
+argus > irithel = -2
+argus > gatotkaca = -2
+argus > tigreal = -2
+
+kadita Kadita mid
+kadita > lolita = 2
+kadita > ixia = 2
+kadita > johnson = 2
+kadita > hanzo = 1
+kadita > silvanna = 1
+kadita > aurora = 1
+kadita > eudora = 1
+kadita > valentina = -2
+kadita > harith = -2
+kadita > cyclops = -2
+kadita > novaria = -1
+kadita > obsidia = -1
+kadita > clint = -2
+kadita > beatrix = -2
+
+freya Freya exp, jungle, gold
+freya > mathilda = 2
+freya > lolita = 2
+freya > faramis = 2
+freya > khaleed = 2
+freya > yve = 2
+freya > lesley = 2
+freya > ixia = 2
+freya > harith = 2
+freya > minsitthar = -2
+freya > phoveus = -2
+freya > baxia = -2
+freya > barats = -1
+freya > edith = -1
+freya > obsidia = -2
+
+popol Popol and Kupa jungle, gold
+popol > mathilda = 2
+popol > brody = 2
+popol > lolita = 2
+popol > wanwan = 2
+popol > karrie = 2
+popol > lesley = 2
+popol > rafaela = 2
+popol > harith = 2
+popol > cyclops = 2
+popol > atlas = -2
+popol > carmilla = -2
+popol > hanabi = -2
+popol > lapulapu = -2
+popol > barats = -2
+popol > gusion = -2
+popol > karina = -2
+
+ixia Ixia gold
+ixia > estes = 2
+ixia > lolita = 2
+ixia > rafaela = 2
+ixia > floryn = 2
+ixia > minotaur = 2
+ixia > fredrinn = 2
+ixia > bane = 2
+ixia > wanwan = -2
+ixia > hanzo = -2
+ixia > claude = -2
+ixia > kadita = -2
+ixia > natalia = -2
+ixia > saber = -2
+ixia > aamon = -2
+
+rafaela Rafaela roam
+rafaela > aulus = 2
+rafaela > natalia = 2
+rafaela > valentina = 2
+rafaela > valir = 2
+rafaela > karrie = 2
+rafaela > alice = 2
+rafaela > hylos = 2
+rafaela > kaja = 2
+rafaela > masha = 2
+rafaela > barats = 2
+rafaela > odette = -2
+rafaela > ixia = -2
+rafaela > silvanna = -2
+rafaela > layla = -2
+rafaela > vale = -2
+rafaela > ling = -2
+rafaela > hayabusa = -2
+
+minsitthar Minsitthar exp
+minsitthar > freya = 2
+minsitthar > harith = 2
+minsitthar > valentina = 2
+minsitthar > phoveus = 2
+minsitthar > martis = 2
+minsitthar > chip = 2
+minsitthar > benedetta = 2
+minsitthar > arlott = 2
+minsitthar > baxia = -2
+minsitthar > natalia = -2
+minsitthar > argus = -2
+minsitthar > x.borg = -2
+minsitthar > yin = -2
+minsitthar > zilong = -2
+minsitthar > aulus = -2
+
+ruby Ruby exp
+ruby > gloo = 2
+ruby > sun = 2
+ruby > argus = 2
+ruby > masha = 2
+ruby > zhask = 2
+ruby > karina = 2
+ruby > faramis = 1
+ruby > aldous = 2
+ruby > guinevere = 2
+ruby > phoveus = -2
+ruby > x.borg = -2
+ruby > arlott = -2
+ruby > lolita = -2
+ruby > bruno = -2
+ruby > wanwan = -2
+ruby > irithel = -2
+
+natan Natan gold
+natan > gloo = 2
+natan > sun = 2
+natan > zhask = 2
+natan > x.borg = 2
+natan > johnson = 2
+natan > barats = 2
+natan > uranus = 2
+natan > tigreal = 2
+natan > gatotkaca = 2
+natan > chip = -2
+natan > wanwan = -2
+natan > lolita = -2
+natan > saber = -2
+natan > arlott = -2
+natan > eudora = -2
+
+melissa Melissa gold
+melissa > masha = 2
+melissa > joy = 2
+melissa > alucard = 2
+melissa > lolita = 2
+melissa > aldous = 2
+melissa > mathilda = 2
+melissa > paquito = 2
+melissa > sun = 2
+melissa > zilong = 2
+melissa > belerick = -2
+melissa > terizla = -2
+melissa > baksiy = -2
+melissa > yisunshin = -2
+melissa > x.borg = -2
+melissa > xavier = -1
+melissa > nana = -1
+
+khufra Khufra roam
+khufra > paquito = 2
+khufra > guinevere = 2
+khufra > alucard = 2
+khufra > layla = 2
+khufra > natalia = 2
+khufra > valentina = 2
+khufra > wanwan = 2
+khufra > beatrix = 2
+khufra > novaria = 2
+khufra > joy = 2
+khufra > lancelot = 2
+khufra > zhuxin = -2
+khufra > minotaur = -2
+khufra > baxia = -2
+khufra > kalea = -2
+khufra > nolan = -2
+khufra > fredrinn = -2
+khufra > gloo = -2
+
+leomord Leomord jungle
+leomord > lolita = 2
+leomord > belerick = 2
+leomord > popol = 2
+leomord > khaleed = 2
+leomord > saber = 2
+leomord > eudora = 2
+leomord > zhask = 2
+leomord > odette = 2
+leomord > pharsa = 2
+leomord > yve = 2
+leomord > cecilion = 2
+leomord > zhuxin = -2
+leomord > karrie = -2
+leomord > valir = -2
+leomord > khufra = -2
+leomord > angela = -2
+leomord > phoveus = -2
+leomord > franco = -2
+leomord > akai = -2
+leomord > nana = -2
+
+benedetta Benedetta exp, jungle
+benedetta > alpha = 2
+benedetta > x.borg = 2
+benedetta > atlas = 2
+benedetta > silvanna = 2
+benedetta > gord = 2
+benedetta > baksiy = 2
+benedetta > thamuz = 2
+benedetta > ixia = 2
+benedetta > jawhead = 2
+benedetta > guinevere = 2
+benedetta > phoveus = -2
+benedetta > faramis = -2
+benedetta > irithel = -2
+benedetta > obsidia = -2
+benedetta > harith = -2
+benedetta > minsitthar = -2
+
+zetian Zetian mid
+zetian > lolita = 2
+zetian > natalia = 2
+zetian > tigreal = 2
+zetian > popol = 2
+zetian > atlas = 2
+zetial > balmond = 2
+zetian > zilong = 2
+zetian > gloo = -2
+zetian > floryn = -2
+zetian > valentina = -2
+zetian > mathilda = -1
+zetian > estes = -1
+
+gord Gord mid
+gord > barats = 2
+gord > phoveus = 2
+gord > fredrinn = 2
+gord > lolita = 2
+gord > ruby = 2
+gord > baksiy = 2
+gord > natalia = -2
+gord > hanzo = -2
+gord > masha = -2
+gord > ling = -2
+gord > joy = -2
+gord > fanny = -2
+gord > lancelot = -2
+
+bane Bane jungle, exp
+bane > phoveus = 2
+bane > claude = 2
+bane > faramis = 2
+bane > odette = 2
+bane > fanny = 2
+bane > chip = 2
+bane > wanwan = 2
+bane > khufra = 2
+bane > hylos = 2
+bane > belerick = 2
+bane > lolita = -2
+bane > baksiy = -2
+bane > mathilda = -2
+bane > aulus = -2
+bane > yin = -2
+bane > vale = -2
+bane > xavier = -2
+
+aamon Aamon jungle
+aamon > cici = 2
+aamon > ling = 2
+aamon > claude = 2
+aamon > masha = 2
+aamon > hilda = 2
+aamon > xavier = 2
+aamon > cecilion = 2
+aamon > gloo = -2
+aamon > odette = -2
+aamon > barats = -2
+aamon > silvanna = -2
+aamon > lolita = -2
+aamon > balmond = -2
+aamon > fredrinn = -2
+
+khaleed Khaleed exp, roam
+khaleed > zhask = 2
+khaleed > vale = 2
+khaleed > argus = 2
+khaleed > ling = 2
+khaleed > yin = 2
+khaleed > diggie = 2
+khaleed > baksiy = 2
+khaleed > chip = 2
+khaleed > lylia = 1
+khaleed > cyclops = 2
+khaleed > xavier = 2
+khaleed > clint = -2
+khaleed > yve = -2
+khaleed > alice = -2
+khaleed > bruno = -2
+khaleed > freya = -2
+khaleed > x.borg = -2
+khaleed > chou = -2
+
+hanzo Hanzo jungle
+hanzo > barats = 2
+hanzo > balmond = 2
+hanzo > alpha = 2
+hanzo > ixia = 2
+hanzo > lolita = 2
+hanzo > yve = 2
+hanzo > diggie = 2
+hanzo > gord = 2
+hanzo > carmilla = 2
+hanzo > layla = 2
+hanzo > zhuxin = 2
+hanzo > natalia = -2
+hanzo > ling = -2
+hanzo > moskov = -2
+hanzo > paquito = -2
+hanzo > obsidia = -2
+hanzo > fanny = -2
+hanzo > lancelot = -2
+hanzo > arlott = -2
+
+uranus Uranus exp
+uranus > irithel = 2
+uranus > argus = 2
+uranus > obsidia = 2
+uranus > yisunshin = 2
+uranus > layla = 2
+uranus > diggie = 2
+uranus > gatotkaca = 2
+uranus > tigreal = 2
+uranus > franco = 2
+uranus > angela = -2
+uranus > karrie = -2
+uranus > dyrroth = -2
+uranus > estes = -2
+uranus > aulus = -2
+uranus > lesley = -2
+
+zhuxin Zhuxin mid
+zhuxin > lolita = 2
+zhuxin > gloo = 2
+zhuxin > khufra = 2
+zhuxin > alice = 2
+zhuxin > leomord = 2
+zhuxin > baxia = 2
+zhuxin > terizla = 2
+zhuxin > chip = 2
+zhuxin > cyclops = 2
+zhuxin > popol = 2
+zhuxin > valir = -2
+zhuxin > hayabusa = -2
+zhuxin > saber = -2
+zhuxin > rafaela = -2
+zhuxin > nolan = -2
+zhuxin > fanny = -2
+
+irithel Irithel gold
+irithel > wanwan = 2
+irithel > benedetta = 2
+irithel > argus = 2
+irithel > minsitthar = 2
+irithel > ling = 2
+irithel > mathilda = 2
+irithel > hanzo = 2
+irithel > miya = 2
+irithel > alpha = 2
+irithel > brody = -2
+irithel > eudora = -2
+irithel > bruno = -2
+irithel > uranus = -2
+irithel > cyclops = -2
+irithel > badang = -2
+irithel > silvanna = -2
+
+carmilla Carmilla roam
+carmilla > chip = 2
+carmilla > popol = 2
+carmilla > aulus = 2
+carmilla > barats = 2
+carmilla > johnson = 2
+carmilla > khufra = 2
+carmilla > phoveus = 2
+carmilla > dyrroth = 2
+carmilla > lapulapu = 2
+carmilla > faramis = -2
+carmilla > x.borg = -2
+carmilla > valentina = -2
+carmilla > hanzo = -2
+carmilla > fanny = -2
+carmilla > hanabi = -2
+carmilla > wanwan = -2
+
+natalia Natalia jungle, roam
+natalia > hanzo = 2
+natalia > ling = 2
+natalia > xavier = 2
+natalia > gord = 2
+natalia > x.borg = 2
+natalia > lolita = 2
+natalia > novaria = 2
+natalia > irithel = 2
+natalia > saber = -2
+natalia > karina = -2
+natalia > cyclops = -2
+natalia > paquito = -2
+natalia > alucard = -2
+natalia > minsitthar = -2
+natalia > kaja = -2
+
+fredrinn Fredrinn jungle
+fredrinn > gloo = 2
+fredrinn > argus = 2
+fredrinn > esmeralda = 2
+fredrinn > joy = 2
+fredrinn > lunox = 2
+fredrinn > saber = 2
+fredrinn > alucard = 2
+fredrinn > harith = 2
+fredrinn > vale = 1
+fredrinn > eudora = 1
+fredrinn > karrie = -2
+fredrinn > valir = -2
+fredrinn > x.borg = -2
+fredrinn > hanzo = -2
+fredrinn > gord = -2
+fredrinn > lesley = -2
+
+karrie Karrie gold
+karrie > alice = 2
+karrie > leomord = 2
+karrie > esmeralda = 2
+karrie > terizla = 2
+karrie > lapulapu = 2
+karrie > fredrinn = 2
+karrie > uranus = 2
+karrie > harith = 2
+karrie > tigreal = 2
+karrie > sun = -2
+karrie > popol = -2
+karrie > rafaela = -2
+karrie > lolita = -2
+karrie > minsitthar = -2
+karrie > xavier = -2
+karrie > layla = -2
+karrie > nana = -2
+
+valir Valir mid
+valir > barats = 2
+valir > fredrinn = 2
+valir > leomord = 2
+valir > thamuz = 2
+valir > balmond = 2
+valir > alice = 2
+valir > baxia = 2
+valir > lolita = -2
+valir > rafaela = -2
+valir > ling = -2
+valir > mathilda = -2
+valir > helcurt = -2
+valir > lancelot = -2
+valir > fanny = -2
+
+edith Edith exp, roam
+edith > chip = 2
+edith > harith = 2
+edith > joy = 2
+edith > silvanna = 2
+edith > mathilda = 2
+edith > yve = 2
+edith > diggie = 2
+edith > zilong = 2
+edith > aulus = 2
+edith > lolita = -2
+edith > masha = -2
+edith > layla = -2
+edith > luoyi = -2
+edith > lolita = -2
+edith > popol = -2
+edith > hanabi = -2
+edith > wanwan = -2
+
+obsidia Obsidia gold
+obsidia > benedetta = 2
+obsidia > hanzo = 2
+obsidia > natalia = 2
+obsidia > hayabusa = 2
+obsidia > novaria = 2
+obsidia > beatrix = 2
+obsidia > helcurt = 2
+obsidia > freya = 2
+obsidia > lancelot = 2
+obsidia > baxia = -2
+obsidia > uranus = -2
+obsidia > belerick = -2
+obsidia > karina = -2
+obsidia > popol = -2
+obsidia > layla = -2
+obsidia > bruno = -2
+
+yve Yve mid
+yve > lolita = 2
+yve > popol = 2
+yve > alice = 2
+yve > belerick = 2
+yve > x.borg = 2
+yve > mathilda = 2
+yve > baxia = 2
+yve > gloo = 2
+yve > diggie = 2
+yve > fredrinn = 2
+yve > barats = 2
+yve > aulus = 2
+yve > harith = -2
+yve > zhask = -2
+yve > fanny = -2
+yve > faramis = -2
+yve > luoyi = -2
+yve > yin = -2
+yve > saber = -2
+yve > karina = -2
+
+alice Alice exp, jungle
+alice > gloo = 2
+alice > popol = 2
+alice > atlas = 2
+alice > chip = 2
+alice > tigreal = 2
+alice > valentina = 2
+alice > barats = 2
+alice > cecilion = 2
+alice > change = 2
+alice > karrie = -2
+alice > angela = -2
+alice > floryn = -2
+alice > baxia = -2
+alice > estes = -2
+alice > martis = -2
+
+faramis Faramis mid
+faramis > gloo = 2
+faramis > chip = 2
+faramis > wanwan = 2
+faramis > sun = 2
+faramis > zhask = 2
+faramis > masha = 2
+faramis > yve = 2
+faramis > carmilla = 2
+faramis > mathilda = 2
+faramis > saber = 2
+faramis > eudora = 2
+faramis > valentina = -2
+faramis > cyclops = -2
+faramis > roger = -2
+faramis > thamuz = -2
+faramis > xavier = -2
+faramis > novaria = -2
+faramis > pharsa = -2
+
+belerick Belerick roam
+belerick > miya = 2
+belerick > obsidia = 2
+belerick > melissa = 2
+belerick > silvanna = 2
+belerick > johnson = 2
+belerick > minsitthar = 2
+belerick > lancelot = 2
+belerick > ling = 2
+belerick > lesley = -2
+belerick > brody = -2
+belerick > mathilda = -2
+belerick > bruno = -2
+belerick > clint = -2
+belerick > valir = -2
+belerick > xavier = -2
+
+atlas Atlas roam
+atlas > layla = 2
+atlas > lolita = 2
+atlas > eudora = 2
+atlas > baksiy = 2
+atlas > estes = 2
+atlas > popol = 2
+atlas > johnson = 2
+atlas > vexana = 2
+atlas > valentina = -2
+atlas > diggie = -2
+atlas > wanwan = -2
+atlas > benedetta = -2
+atlas > ling = -2
+atlas > valir = -2
+atlas > moskov = -2
+
+guinevere Guinevere exp
+guinevere > julian = 2
+guinevere > lunox = 2
+guinevere > esmeralda = 2
+guinevere > karrie = 2
+guinevere > gatotkaca = 2
+guinevere > lylia = 2
+guinevere > baxia = 2
+guinevere > aulus = 2
+guinevere > thamuz = 2
+guinevere > zilong = 2
+guinevere > silvanna = 2
+guinevere > masha = -2
+guinevere > khufra = -2
+guinevere > wanwan = -2
+guinevere > diggie = -2
+guinevere > chip = -2
+guinevere > badang = -2
+guinevere > chou = -2
+
+terizla Terizla exp
+terizla > popol = 2
+terizla > minsitthar = 2
+terizla > argus = 2
+terizla > bruno = 2
+terizla > masha = 2
+terizla > phoveus = 2
+terizla > odette = 2
+terizla > khufra = 2
+terizla > silvanna = 2
+terizla > zilong = 2
+terizla > sun = 2
+terizla > zhuxin = -2
+terizla > x.borg = -2
+terizla > lylia = -2
+terizla > alpha = -2
+terizla > diggie = -2
+terizla > arlott = -2
+terizla > lesley = -2
+
+akai Akai roam
+akai > argus = 2
+akai > barats = 2
+akai > masha = 2
+akai > alucard = 2
+akai > atlas = 2
+akai > fredrinn = 2
+akai > eudora = 2
+akai > brody = 2
+akai > tigreal = 2
+akai > odette = 2
+akai > esmeralda = -2
+akai > cyclops = -2
+akai > alice = -2
+akai > zhuxin = -2
+akai > hanabi = -2
+akai > nana = -2
+akai > diggie = -2
+
+------
+
+vexana Vexana mid
+vexana > gloo = 2
+vexana > chip = 2
+vexana > lolita = 2
+vexana > zhask = 2
+vexana > sun = 2
+vexana > harith = 2
+vexana > layla = 2
+vexana > irithel = 2
+vexana > xavier = 1
+vexana > natalia = -2
+vexana > alice = -2
+vexana > x.borg = -2
+vexana > faramis = -2
+vexana > saber = -2
+vexana > aamon = -2
+vexana > karina = -2
+
+yisunshin Yi Sun-shin jungle
+yisunshin > khufra = 2
+yisunshin > melissa = 2
+yisunshin > ling = 2
+yisunshin > benedetta = 2
+yisunshin > ruby = 2
+yisunshin > thamuz = 2
+yisunshin > ixia = 2
+yisunshin > uranus = -2
+yisunshin > karina = -2
+yisunshin > esmeralda = -2
+yisunshin > aamon = -2
+yisunshin > cyclops = -2
+yisunshin > franco = -2
+yisunshin > kaja = -2
+
+brody Brody gold
+brody > natalia = 2
+brody > belerick = 2
+brody > karina = 2
+brody > irithel = 2
+brody > helcurt = 2
+brody > aamon = 2
+brody > yin = 2
+brody > barats = -2
+brody > popol = -2
+brody > masha = -2
+brody > diggie = -2
+brody > valentina = -2
+brody > martis = -2
+brody > wanwan = -2
+
+odette Odette mid
+odette > mathilda = 2
+odette > kaja = 2
+odette > rafaela = 2
+odette > joy = 2
+odette > harith = 2
+odette > natalia = 2
+odette > aamon = 2
+odette > karina = 2
+odette > layla = 2
+odette > irithel = 2
+odette > vale = -2
+odette > barats = -2
+odette > gatotkaca = -2
+odette > terizla = -2
+odette > fredrinn = -2
+odette > minotaur = -2
+odette > edith = -2
+
+vale Vale mid
+vale > rafaela = 2
+vale > odette = 2
+vale > estes = 2
+vale > faramis = 2
+vale > melissa = 2
+vale > chip = 2
+vale > popol = 2
+vale > terizla = 2
+vale > hilda = 2
+vale > valentina = -2
+vale > gloo = -2
+vale > hylos = -2
+vale > ling = -2
+vale > yve = -2
+vale > hayabusa = -2
+
+miya Miya gold
+miya > masha = 2
+miya > saber = 2
+miya > irithel = 2
+miya > obsidia = 2
+miya > diggie = 2
+miya > hanzo = 2
+miya > gloo = 2
+miya > eudora = 2
+miya > sun = 2
+miya > belerick = -2
+miya > gatotkaca = -2
+miya > lolita = -2
+miya > fredrinn = -1
+miya > leomord = -1
+miya > pharsa = -1
+miya > yve = -1
+
+clint Clint gold
+clint > lolita = 2
+clint > karina = 2
+clint > belerick = 2
+clint > x.borg = 2
+clint > aulus = 2
+clint > khaleed = 2
+clint > yve = 2
+clint > miya = 1
+clint > layla = -1
+clint > gloo = -1
+clint > moskov = -1
+clint > fanny = -1
+clint > chip = -1
+clint > karrie = -1
+clint > melissa = -1
+
+cyclops Cyclops mid
+cyclops > natalia = 2
+cyclops > joy = 2
+cyclops > wanwan = 2
+cyclops > ling = 2
+cyclops > benedetta = 2
+cyclops > faramis = 2
+cyclops > akai = 2
+cyclops > terizla = 2
+cyclops > alpha = 2
+cyclops > lolita = -2
+cyclops > estes = -2
+cyclops > odette = -2
+cyclops > aulus = -2
+cyclops > aamon = -2
+cyclops > lancelot = -1
+cyclops > alucard = -1
+cyclops > kagura = -1
+
+suyou Suyou jungle
+suyou > sun = 2
+suyou > hanzo = 2
+suyou > natalia = 2
+suyou > lylia = 2
+suyou > balmond = 2
+suyou > masha = 2
+suyou > x.borg = 2
+suyou > lapulapu = 2
+suyou > ixia = 1
+suyou > fredrinn = 1
+suyou > silvanna = -2
+suyou > harith = -2
+suyou > cyclops = -1
+suyou > julian = -1
+suyou > alucard = -1
+suyou > badang = -1
+suyou > melissa = -1
+
+thamuz Thamuz exp
+thamuz > alice = 2
+thamuz > alucard = 2
+thamuz > fredrinn = 2
+thamuz > odette = 2
+thamuz > lolita = 2
+thamuz > faramis = 2
+thamuz > esmeralda = 2
+thamuz > uranus = 2
+thamuz > zilong = 1
+thamuz > sun = 1
+thamuz > cici = -2
+thamuz > baxia = -2
+thamuz > valir = -2
+thamuz > benedetta = -2
+thamuz > yisunshin = -2
+thamuz > karrie = -2
+thamuz > irithel = -2
+
+badang Badang roam, exp
+badang > fanny = 2
+badang > sun = 2
+badang > popol = 2
+badang > zilong = 1
+badang > gloo = 2
+badang > aldous = 2
+badang > masha = 1
+badang > layla = 1
+badang > odette = 1
+badang > lolita = -2
+badang > gatotkaca = -2
+badang > esmeralda = -2
+badang > lukas = -2
+badang > lapulapu = -2
+badang > wanwan = -1
+badang > ling = -1
+
+sora Sora exp
+sora > lolita = 2
+sora > estes = 2
+sora > sun = 2
+sora > popol = 2
+sora > aulus = 2
+sora > yve = 2
+sora > faramis = 2
+sora > rafaela = 2
+sora > nolan = 1
+sora > layla = 1
+sora > miya = 1
+sora > hanabi = 1
+sora > phoveus = -2
+sora > alice = -2
+sora > minsitthar = -2
+sora > balmond = -1
+sora > edith = -1
+sora > valir = -1
+sora > fanny = -1
+sora > arlott = -1
+
+helcurt Helcurt jungle
+helcurt > hanzo = 2
+helcurt > gord = 2
+helcurt > x.borg = 2
+helcurt > valir = 2
+helcurt > xavier = 2
+helcurt > layla = 1
+helcurt > change = 1
+helcurt > vale = 1
+helcurt > natalia = -2
+helcurt > brody = -2
+helcurt > karina = -2
+helcurt > eudora = -2
+helcurt > obsidia = -2
+helcurt > fredrinn = -2
+helcurt > belerick = -2
+helcurt > gatotkaca = -2
+
+baxia Baxia jungle
+baxia > obsidia = 2
+baxia > aulus = 2
+baxia > phoveus = 2
+baxia > zhask = 2
+baxia > lukas = 2
+baxia > chip = 2
+baxia > alice = 2
+baxia > saber = 2
+baxia > thamuz = 2
+baxia > change = 1
+baxia > silvanna = 1
+baxia > x.borg = -2
+baxia > lolita = -2
+baxia > joy = -2
+baxia > zhuxin = -2
+baxia > yve = -2
+baxia > karrie = -2
+baxia > lesley = -2
+
+kagura Kagura mid
+kagura > lolita = 2
+kagura > hanzo = 1
+kagura > valir = 2
+kagura > yin = 2
+kagura > x.borg = 2
+kagura > tigreal = 1
+kagura > layla = 1
+kagura > eudora = 1
+kagura > khufra = -2
+kagura > barats = -2
+kagura > faramis = -2
+kagura > obsidia = -2
+kagura > paquito = -2
+kagura > joy = -1
+kagura > martis = -1
+
+johnson Johnson roam
+johnson > layla = 2
+johnson > zilong = 2
+johnson > saber = 2
+johnson > eudora = 2
+johnson > valentina = 2
+johnson > popol = 2
+johnson > alucard = 1
+johnson > alice = -2
+johnson > mathilda = -2
+johnson > minotaur = -2
+johnson > atlas = -2
+johnson > belerick = -2
+johnson > harith = -1
+johnson > kagura = -1
+
+lylia Lylia mid
+lylia > lolita = 2
+lylia > alpha = 2
+lylia > barats = 2
+lylia > johnson = 2
+lylia > hanabi = 2
+lylia > terizla = 2
+lylia > alice = 2
+lylia > carmilla = 1
+lylia > hylos = 1
+lylia > joy = -2
+lylia > guinevere = -2
+lylia > wanwan = -2
+lylia > mathilda = -2
+lylia > paquito = -2
+lylia > nolan = -1
+lylia > ling = -1
+
+alucard Alucard jungle
+alucard > sun = 2
+alucard > natalia = 2
+alucard > mathilda = 2
+alucard > kaja = 2
+alucard > saber = 2
+alucard > faramis = 2
+alucard > harith = 2
+alucard > harley = 1
+alucard > aamon = 1
+alucard > melissa = -2
+alucard > fredrinn = -2
+alucard > phoveus = -2
+alucard > baxia = -2
+alucard > terizla = -2
+alucard > franco = -1
+alucard > johnson = -1
+
+gusion Gusion mid, jungle
+gusion > natalia = 1
+gusion > aamon = 2
+gusion > x.borg = 2
+gusion > yve = 1
+gusion > suyou = 1
+gusion > valir = 2
+gusion > gord = 1
+gusion > hanabi = 1
+gusion > layla = 1
+gusion > eudora = -2
+gusion > alucard = -2
+gusion > lolita = -2
+gusion > odette = -1
+gusion > baxia = -1
+gusion > franco = -1
+gusion > kaja = -1
+
+cecilion Cecilion mid
+cecilion > lolita = 2
+cecilion > terizla = 1
+cecilion > barats = 1
+cecilion > aulus = 1
+cecilion > diggie = 1
+cecilion > faramis = 1
+cecilion > martis = 1
+cecilion > balmond = 1
+cecilion > hanzo = -2
+cecilion > hayabusa = -1
+cecilion > zilong = -1
+cecilion > aamon = -1
+cecilion > ixia = -1
+cecilion > fanny = -1
+cecilion > ling = -1
+
+saber Saber jungle, roam
+saber > natalia = 2
+saber > nolan = 2
+saber > hayabusa = 2
+saber > ling = 2
+saber > mathilda = 2
+saber > zhuxin = 2
+saber > layla = 1
+saber > eudora = 1
+saber > masha = -2
+saber > barats = -2
+saber > fredrinn = -2
+saber > sun = -2
+saber > argus = -2
+saber > estes = -1
+saber > faramis = -1
+
+julian Julian jungle
+julian > valentina = 2
+julian > esmeralda = 2
+julian > sun = 2
+julian > uranus = 1
+julian > x.borg = 1
+julian > mathilda = 2
+julian > alice = 2
+julian > aldous = 1
+julian > cecilion = 1
+julian > tigreal = -1
+julian > granger = -1
+julian > minsitthar = -1
+julian > barats = -1
+julian > vale = -1
+julian > joy = -1
+julian > harith = -1
+
+change Chang'e mid
+change > diggie = 2
+change > masha = 1
+change > barats = 1
+change > balmond = 1
+change > gord = 1
+change > faramis = 1
+change > x.borg = 1
+change > vale = 1
+change > lancelot = 1
+change > odette = 1
+change > eudora = 1
+change > lolita = -2
+change > claude = -1
+change > popol = -1
+change > esmeralda = -1
+change > joy = -1
+change > hanzo = -1
+change > harley = -1
+
+aldous Aldous exp
+aldous > sun = 2
+aldous > joy = 2
+aldous > novaria = 2
+aldous > helcurt = 2
+aldous > xavier = 2
+aldous > faramis = 2
+aldous > gord = 2
+aldous > belerick = 2
+aldous > zilong = 1
+aldous > leomord = 1
+aldous > karina = -2
+aldous > melissa = -2
+aldous > esmeralda = -2
+aldous > jawhead = -2
+aldous > harith = -2
+aldous > martis = -1
+aldous > dyrroth = -1
+
+x.borg X.Borg exp
+x.borg > barats = 2
+x.borg > baxia = 2
+x.borg > terizla = 2
+x.borg > cici = 2
+x.borg > hylos = 2
+x.borg > phoveus = 2
+x.borg > ruby = 2
+x.borg > aulus = 2
+x.borg > zilong = -2
+x.borg > helcurt = -2
+x.borg > angela = -2
+x.borg > floryn = -2
+x.borg > paquito = -2
+x.borg > dyrroth = -1
+x.borg > martis = -1
+
+yuzhong Yu Zhong exp
+yuzhong > gloo = 2
+yuzhong > ruby = 2
+yuzhong > hylos = 2
+yuzhong > atlas = 1
+yuzhong > carmilla = 1
+yuzhong > minsitthar = 1
+yuzhong > minotaur = 1
+yuzhong > popol = 1
+yuzhong > thamuz = 1
+yuzhong > aulus = 1
+yuzhong > zilong = 1
+yuzhong > masha = -2
+yuzhong > bruno = -2
+yuzhong > lunox = -2
+yuzhong > edith = -1
+yuzhong > karrie = -1
+yuzhong > lesley = -1
+
+phoveus Phoveus exp
+phoveus > wanwan = 2
+phoveus > harith = 2
+phoveus > freya = 2
+phoveus > valentina = 2
+phoveus > ruby = 2
+phoveus > benedetta = 2
+phoveus > arlott = 2
+phoveus > chou = 2
+phoveus > x.borg = -2
+phoveus > minsitthar = -2
+phoveus > novaria = -2
+phoveus > gord = -2
+phoveus > terizla = -2
+phoveus > aurora = -1
+phoveus > valir = -1
+phoveus > vexana = -1
+
+xavier Xavier mid
+xavier > belerick = 2
+xavier > faramis = 2
+xavier > atlas = 2
+xavier > minotaur = 2
+xavier > hylos = 2
+xavier > chip = 2
+xavier > x.borg = 1
+xavier > hanabi = 1
+xavier > popol = 1
+xavier > terizla = 1
+xavier > natalia = -2
+xavier > angela = -2
+xavier > masha = -2
+xavier > fanny = -2
+xavier > helcurt = -2
+xavier > benedetta = -1
+xavier > hayabusa = -1
+
+roger Roger jungle
+roger > mathilda = 1
+roger > faramis = 2
+roger > masha = 2
+roger > gusion = 1
+roger > benedetta = 1
+roger > balmond = 1
+roger > silvanna = 1
+roger > diggie = 1
+roger > kagura = 1
+roger > odette = 1
+roger > hanabi = 1
+roger > yve = -2
+roger > atlas = -2
+roger > kaja = -2
+roger > valentina = -2
+roger > chip = -1
+roger > minsitthar = -2
+roger > khufra = -2
+
+grock Grock roam, exp
+grock > lolita = 2
+grock > khufra = 2
+grock > yin = 1
+grock > layla = 1
+grock > diggie = 1
+grock > eudora = 1
+grock > gord = 1
+grock > vale = 1
+grock > popol = 1
+grock > akai = 1
+grock > alice = -2
+grock > esmeralda = -2
+grock > mathilda = -2
+grock > angela = -2
+grock > claude = -2
+grock > kimmy = -1
+grock > harley = -1
+
+yin Yin jungle, exp
+yin > estes = 2
+yin > diggie = 2
+yin > floryn = 2
+yin > joy = 2
+yin > angela = 2
+yin > layla = 2
+yin > cecilion = 2
+yin > wanwan = -2
+yin > valentina = -2
+yin > khufra = -2
+yin > martis = -2
+yin > masha = -2
+yin > badang = -1
+yin > fredrinn = -1
+
+angela Angela roam
+angela > alice = 2
+angela > balmond = 2
+angela > uranus = 2
+angela > faramis = 2
+angela > x.borg = 2
+angela > xavier = 2
+angela > belerick = 2
+angela > lolita = -2
+angela > franco = -2
+angela > zilong = -2
+angela > silvanna = -2
+angela > yin = -2
+angela > ling = -2
+angela > harley = -2
+
+pharsa Pharsa mid
+pharsa > lolita = 2
+pharsa > melissa = 1
+pharsa > yve = 1
+pharsa > hanabi = 1
+pharsa > valir = 1
+pharsa > barats = 1
+pharsa > layla = 1
+pharsa > xavier = 1
+pharsa > natalia = -2
+pharsa > yin = -1
+pharsa > beatrix = -1
+pharsa > joy = -1
+pharsa > chip = -1
+pharsa > franco = -1
+pharsa > zilong = -1
+pharsa > minsitthar = -1
+
+lukas Lukas exp, jungle
+lukas > wanwan = 2
+lukas > badang = 2
+lukas > yve = 2
+lukas > fanny = 2
+lukas > natalia = 2
+lukas > bruno = 1
+lukas > ling = 1
+lukas > chou = 1
+lukas > kagura = 1
+lukas > sun = 1
+lukas > hanabi = 1
+lukas > ixia = 1
+lukas > phoveus = -2
+lukas > minsitthar = -2
+lukas > valentina = -2
+lukas > x.borg = -2
+lukas > balmond = -2
+lukas > valir = -1
+lukas > julian = -1
+
+claude Claude gold
+claude > change = 2
+claude > balmond = 2
+claude > grock = 2
+claude > lolita = 2
+claude > lapulapu = 2
+claude > ixia = 2
+claude > vexana = 1
+claude > floryn = 1
+claude > lesley = -2
+claude > bruno = -2
+claude > kaja = -2
+claude > popol = -2
+claude > cyclops = -2
+claude > eudora = -2
+claude > franco = -2
+
+barats Barats jungle
+barats > eudora = 2
+barats > saber = 2
+barats > bruno = 2
+barats > argus = 2
+barats > brody = 2
+barats > phoveus = 2
+barats > silvanna = 2
+barats > belerick = 2
+barats > lolita = 2
+barats > x.borg = -2
+barats > gord = -2
+barats > balmond = -2
+barats > novaria = -2
+barats > valir = -2
+barats > akai = -2
+barats > moskov = -2
+
+zhask Zhask mid
+zhask > lolita = 2
+zhask > yve = 2
+zhask > kaja = 2
+zhask > masha = 2
+zhask > beatrix = 2
+zhask > diggie = 2
+zhask > selena = 1
+zhask > harith = 1
+zhask > lukas = 1
+zhask > aldous = 1
+zhask > paquito = 1
+zhask > faramis = -2
+zhask > leomord = -2
+zhask > alice = -2
+zhask > natan = -1
+zhask > vexana = -1
+zhask > pharsa = -1
+zhask > cecilion = -1
+
+joy Joy jungle
+joy > baxia = 2
+joy > x.borg = 2
+joy > sun = 2
+joy > beatrix = 2
+joy > yve = 2
+joy > lylia = 2
+joy > xavier = 2
+joy > vexana = 2
+joy > cyclops = -2
+joy > kalea = -2
+joy > karrie = -2
+joy > harith = -2
+joy > brody = -2
+joy > minsitthar = -2
+joy > khufra = -2
+
+lapulapu Lapu-Lapu exp
+lapulapu > argus = 2
+lapulapu > vale = 1
+lapulapu > badang = 2
+lapulapu > silvanna = 2
+lapulapu > barats = 2
+lapulapu > popol = 2
+lapulapu > atlas = 1
+lapulapu > belerick = 1
+lapulapu > layal = 1
+lapulapu > eudora = 1
+lapulapu > kaja = -2
+lapulapu > esmeralda = -2
+lapulapu > harith = -2
+lapulapu > claude = -2
+lapulapu > karrie = -2
+lapulapu > lesley = -1
+lapulapu > moskov = -1
+
+eudora Eudora mid
+eudora > joy = 1
+eudora > irithel = 2
+eudora > helcurt = 2
+eudora > natalia = 2
+eudora > floryn = 2
+eudora > zilong = 2
+eudora > rafaela = 2
+eudora > sora = 1
+eudora > moskov = 1
+eudora > barats = -2
+eudora > chip = -2
+eudora > fredrinn = -2
+eudora > leomord = -2
+eudora > baxia = -2
+eudora > hayabusa = -2
+eudora > kadita = -2
+
+nolan Nolan jungle
+nolan > lolita = 1
+nolan > khufra = 2
+nolan > ixia = 2
+nolan > zhuxin = 2
+nolan > estes = 2
+nolan > floryn = 2
+nolan > natan = 1
+nolan > angela = 1
+nolan > eudora = 1
+nolan > hanabi = 1
+nolan > saber = -2
+nolan > hayabusa = -2
+nolan > irithel = -2
+nolan > natalia = -2
+nolan > hilda = -2
+nolan > thamuz = -1
+nolan > fredrinn = -1
+
+hylos Hylos roam
+hylos > eudora = 2
+hylos > diggie = 2
+hylos > barats = 2
+hylos > argus = 2
+hylos > vale = 2
+hylos > layla = 1
+hylos > johnson = 1
+hylos > zhask = 1
+hylos > nana = 1
+hylos > gord = 1
+hylos > rafaela = -2
+hylos > karrie = -2
+hylos > yve = -2
+hylos > zhuxin = -2
+hylos > x.borg = -2
+hylos > lesley = -1
+
+hayabusa Hayabusa jungle
+hayabusa > zhuxin = 2
+hayabusa > nolan = 2
+hayabusa > aamon = 2
+hayabusa > yve = 2
+hayabusa > joy = 2
+hayabusa > valir = 1
+hayabusa > change = 1
+hayabusa > cecilion = 1
+hayabusa > saber = -2
+hayabusa > yin = -2
+hayabusa > eudora = -2
+hayabusa > popol = -1
+hayabusa > cyclops = -1
+hayabusa > franco = -1
+hayabusa > kaja = -1
+
+jawhead Jawhead roam, exp
+jawhead > natalia = 2
+jawhead > aldous = 2
+jawhead > floryn = 1
+jawhead > beatrix = 1
+jawhead > zilong = 1
+jawhead > arlott = 1
+jawhead > helcurt = 1
+jawhead > saber = 1
+jawhead > eudora = 1
+jawhead > sun = -2
+jawhead > faramis = -2
+jawhead > chip = -2
+jawhead > esmeralda = -2
+jawhead > gloo = -2
+jawhead > edith = -1
+jawhead > thamuz = -1
+
+beatrix Beatrix gold
+beatrix > baxia = 2
+beatrix > estes = 2
+beatrix > hanabi = 2
+beatrix > barats = 1
+beatrix > ixia = 2
+beatrix > lapulapu = 2
+beatrix > hylos = 1
+beatrix > belerick = 1
+beatrix > faramis = -2
+beatrix > obsidia = -2
+beatrix > joy = -2
+beatrix > moskov = -2
+beatrix > irithel = -2
+beatrix > eudora = -2
+beatrix > ling = -2
+
+lunox Lunox mid
+lunox > wanwan = 2
+lunox > mathilda = 2
+lunox > baxia = 2
+lunox > esmeralda = 2
+lunox > natalia = 2
+lunox > gloo = 2
+lunox > ling = 2
+lunox > balmond = 2
+lunox > karina = 2
+lunox > hanzo = 2
+lunox > yve = 1
+lunox > lylia = 1
+lunox > chip = -2
+lunox > masha = -2
+lunox > valentina = -2
+lunox > bruno = -2
+lunox > luoyi = -2
+lunox > nolan = -1
+
+alpha Alpha jungle, exp
+alpha > barats = 2
+alpha > phoveus = 2
+alpha > terizla = 2
+alpha > fredrinn = 2
+alpha > odette = 2
+alpha > alucard = 2
+alpha > moskov = 2
+alpha > layla = 1
+alpha > ixia = 1
+alpha > mathilda = -2
+alpha > diggie = -2
+alpha > rafaela = -2
+alpha > benedetta = -2
+alpha > x.borg = -2
+alpha > chou = -2
+alpha > gusion = -2
+
+aurora Aurora mid
+aurora > lolita = 2
+aurora > chip = 2
+aurora > eudora = 2
+aurora > masha = 2
+aurora > saber = 1
+aurora > silvanna = 1
+aurora > melissa = 1
+aurora > odette = 1
+aurora > bane = 1
+aurora > terizla = 1
+aurora > thamuz = 1
+aurora > leomord = 1
+aurora > faramis = -2
+aurora > diggie = -2
+aurora > lapulapu = -1
+aurora > benedetta = -1
+aurora > yve = -1
+aurora > ling = -1
+aurora > kadita = -1
+aurora > guinevere = -1
+
+cici Cici exp
+cici > thamuz = 2
+cici > balmond = 2
+cici > hylos = 2
+cici > benedetta = 2
+cici > lapulapu = 2
+cici > alice = 2
+cici > gloo = 1
+cici > fredrinn = 1
+cici > minotaur = 1
+cici > sun = -2
+cici > x.borg = -2
+cici > aamon = -2
+cici > masha = -2
+cici > estes = -2
+cici > saber = -2
+cici > kaja = -2
+
+moskov Moskov gold
+moskov > hanzo = 2
+moskov > wanwan = 2
+moskov > gloo = 2
+moskov > ling = 2
+moskov > novaria = 2
+moskov > beatrix = 2
+moskov > fanny = 1
+moskov > joy = 1
+moskov > thamuz = 1
+moskov > balmond = 1
+moskov > phoveus = -1
+moskov > cyclops = -1
+moskov > saber = -1
+moskov > miya = -1
+moskov > edith = -1
+moskov > lancelot = -1
+moskov > natalia = -1
+
+-----
+
+arlott Arlott exp
+arlott > ruby = 2
+arlott > x.borg = 2
+arlott > wanwan = 2
+arlott > natan = 2
+arlott > faramis = 2
+arlott > khufra = 1
+arlott > esmeralda = 1
+arlott > zhuxin = 1
+arlott > zilong = 1
+arlott > masha = -2
+arlott > phoveus = -2
+arlott > sun = -2
+arlott > argus = -2
+arlott > valentina = -2
+arlott > thamuz = -1
+arlott > fredrinn = -1
+
+harley Harley jungle
+harley > gord = 2
+harley > valir = 2
+harley > hanzo = 2
+harley > novaria = 2
+harley > x.borg = 1
+harley > joy = 1
+harley > melissa = 1
+harley > cecilion = 1
+harley > ixia = 1
+harley > lolita = -2
+harley > sun = -2
+harley > saber = -2
+harley > popol = -2
+harley > bruno = -2
+harley > uranus = -1
+
+bruno Bruno gold
+bruno > kaja = 2
+bruno > fanny = 2
+bruno > lunox = 2
+bruno > khaleed = 2
+bruno > claude = 2
+bruno > ling = 2
+bruno > wanwan = 2
+bruno > benedetta = 2
+bruno > belerick = 2
+bruno > hanabi = 1
+bruno > miya = 1
+bruno > chip = -2
+bruno > barats = -2
+bruno > gloo = -2
+bruno > balmond = -2
+bruno > valentina = -2
+bruno > gatotkaca = -1
+bruno > fredrinn = -1
+
+luoyi Luo Yi mid
+luoyi > yve = 2
+luoyi > estes = 2
+luoyi > phoveus = 2
+luoyi > minotaur = 2
+luoyi > valentina = 2
+luoyi > aulus = 1
+luoyi > balmond = 1
+luoyi > baxia = 1
+luoyi > popol = 1
+luoyi > eudora = 1
+luoyi > novaria = -2
+luoyi > masha = -2
+luoyi > natalia = -2
+luoyi > gord = -2
+luoyi > chou = -2
+luoyi > uranus = -1
+luoyi > fredrinn = -1
+
+nana Nana mid
+nana > odette = 2
+nana > alucard = 2
+nana > lolita = 1
+nana > melissa = 1
+nana > estes = 1
+nana > saber = 1
+nana > eudora = 1
+nana > kadita = 1
+nana > uranus = -1
+nana > hilda = -1
+nana > akai = -1
+nana > atlas = -1
+nana > gloo = -1
+nana > zilong = -1
+nana > natalia = -1
+
+kimmy Kimmy gold, mid
+kimmy > sun = 2
+kimmy > hanzo = 2
+kimmy > balmond = 2
+kimmy > minotaur = 1
+kimmy > uranus = 1
+kimmy > gatotkaca = 1
+kimmy > masha = 1
+kimmy > granger = 1
+kimmy > cecilion = 1
+kimmy > masha = 1
+kimmy > lolita = -2
+kimmy > karina = -2
+kimmy > natalia = -2
+kimmy > odette = -1
+kimmy > rafaela = -1
+kimmy > saber = -1
+kimmy > lancelot = -1
+
+gatotkaca Gatotkaca roam, exp
+gatotkaca > badang = 2
+gatotkaca > odette = 2
+gatotkaca > miya = 2
+gatotkaca > zilong = 2
+gatotkaca > johnson = 1
+gatotkaca > barats = 1
+gatotkaca > melissa = 1
+gatotkaca > layla = 1
+gatotkaca > popol = 1
+gatotkaca > lesley = -2
+gatotkaca > mathilda = -2
+gatotkaca > uranus = -2
+gatotkaca > floryn = -2
+gatotkaca > karrie = -2
+gatotkaca > diggie = -1
+gatotkaca > wanwan = -1
+
+zilong Zilong exp
+zilong > x.borg = 2
+zilong > angela = 2
+zilong > diggie = 2
+zilong > cici = 2
+zilong > fanny = 2
+zilong > novaria = 2
+zilong > karrie = 2
+zilong > layla = 2
+zilong > lylia = 1
+zilong > barats = -2
+zilong > chip = -2
+zilong > eudora = -2
+zilong > johnson = -2
+zilong > gatotkaca = -2
+zilong > franco = -1
+zilong > nana = -1
+
+lesley Lesley gold
+lesley > claude = 2
+lesley > belerick = 2
+lesley > gatotkaca = 2
+lesley > baxia = 2
+lesley > bruno = 2
+lesley > kaja = 2
+lesley > fredrinn = 1
+lesley > estes = -2
+lesley > gloo = -2
+lesley > sun = -2
+lesley > angela = -2
+lesley > minotaur = -2
+lesley > ling = -1
+lesley > lancelot = -1
+
+chip Chip roam
+chip > bruno = 2
+chip > lunox = 2
+chip > natan = 2
+chip > valentina = 2
+chip > franco = 2
+chip > aldous = 2
+chip > yve = 2
+chip > harith = 2
+chip > khufra = 2
+chip > diggie = 2
+chip > vexana = 1
+chip > layla = 1
+chip > ixia = 1
+chip > estes = -2
+chip > baxia = -2
+chip > masha = -2
+chip > carmilla = -2
+chip > karina = -2
+chip > barats = -2
+chip > tigreal = -2
+
+layla Layla gold
+layla > diggie = 2
+layla > edith = 2
+layla > valentina = 2
+layla > hanabi = 2
+layla > rafaela = 2
+layla > faramis = 1
+layla > melissa = 1
+layla > tigreal = 1
+layla > belerick = 1
+layla > atlas = -2
+layla > johnson = -2
+layla > uranus = -2
+layla > sun = -2
+layla > khufra = -2
+layla > karina = -2
+layla > ling = -2
+
+tigreal Tigreal roam
+tigreal > estes = 2
+tigreal > zilong = 2
+tigreal > alucard = 1
+tigreal > franco = 1
+tigreal > rafaela = 1
+tigreal > freya = 1
+tigreal > eudora = 1
+tigreal > layla = 1
+tigreal > diggie = -2
+tigreal > alice = -2
+tigreal > x.borg = -2
+tigreal > valir = -2
+tigreal > zetian = -2
+tigreal > change = -1
+tigreal > zhask = -1
+
+novaria Novaria mid
+novaria > barats = 2
+novaria > phoveus = 2
+novaria > martis = 2
+novaria > faramis = 2
+novaria > luoyi = 2
+novaria > yve = 1
+novaria > lapulapu = 1
+novaria > leomord = 1
+novaria > belerick = 1
+novaria > terizla = 1
+novaria > odette = 1
+novaria > eudora = 1
+novaria > natalia = -2
+novaria > harith = -2
+novaria > moskov = -2
+novaria > ling = -2
+novaria > zilong = -2
+novaria > saber = -2
+novaria > hayabusa = -1
+
+paquito Paquito exp
+paquito > natalia = 2
+paquito > hanzo = 2
+paquito > x.borg = 2
+paquito > masha = 2
+paquito > zhuxin = 2
+paquito > karina = 1
+paquito > wanwan = 1
+paquito > gord = 1
+paquito > layla = 1
+paquito > khufra = -2
+paquito > phoveus = -2
+paquito > gloo = -2
+paquito > odette = -2
+paquito > melissa = -2
+paquito > franco = -1
+paquito > kaja = -1
+
+ling Ling jungle
+ling > hanzo = 2
+ling > lolita = 2
+ling > valir = 2
+ling > atlas = 2
+ling > yve = 2
+ling > x.borg = 2
+ling > gord = 2
+ling > balmond = 2
+ling > layla = 1
+ling > hanabi = 1
+ling > natalia = -2
+ling > valentina = -2
+ling > saber = -2
+ling > moskov = -2
+ling > cyclops = -2
+ling > eudora = -1
+ling > jawhead = -1
+
+martis Martis jungle
+martis > yin = 2
+martis > eudora = 2
+martis > melissa = 1
+martis > natalia = 1
+martis > saber = 1
+martis > masha = 1
+martis > khaleed = 1
+martis > sora = 1
+martis > layla = 1
+martis > odette = 1
+martis > x.borg = -2
+martis > minsitthar = -2
+martis > novaria = -2
+martis > yve = -2
+martis > mathilda = -2
+martis > thamuz = -1
+martis > fredrinn = -1
+
+karina Karina jungle
+karina > natalia = 2
+karina > kimmy = 2
+karina > chip = 2
+karina > wanwan = 2
+karina > helcurt = 2
+karina > lolita = 2
+karina > irithel = 2
+karina > layla = 1
+karina > hanabi = 1
+karina > granger = -2
+karina > brody = -2
+karina > faramis = -2
+karina > odette = -2
+karina > clint = -2
+karina > akai = -1
+karina > khufra = -1
+
+wanwan Wanwan gold
+wanwan > atlas = 2
+wanwan > ixia = 2
+wanwan > natan = 2
+wanwan > yin = 2
+wanwan > esmeralda = 2
+wanwan > atlas = 2
+wanwan > guinevere = 2
+wanwan > fredrinn = 1
+wanwan > luoyi = 1
+wanwan > lunox = -2
+wanwan > phoveus = -2
+wanwan > masha = -2
+wanwan > popol = -2
+wanwan > cyclops = -2
+wanwan > lancelot = -2
+wanwan > gord = -2
+
+franco Franco roam
+franco > diggie = 2
+franco > angela = 2
+franco > fanny = 2
+franco > floryn = 2
+franco > estes = 2
+franco > freya = 2
+franco > vale = 1
+franco > layla = 1
+franco > chip = -2
+franco > sun = -2
+franco > hanzo = -2
+franco > tigreal = -1
+franco > popol = -1
+franco > wanwan = -1
+franco > badang = -1
+
+kalea Kalea roam
+kalea > joy = 2
+kalea > valentina = 2
+kalea > baxia = 2
+kalea > khufra = 2
+kalea > yve = 2
+kalea > fanny = 1
+kalea > natan = 1
+kalea > arlott = 1
+kalea > layla = 1
+kalea > change = 1
+kalea > mathilda = -2
+kalea > balmond = -2
+kalea > phoveus = -2
+kalea > minsitthar = -2
+kalea > hanzo = -1
+kalea > diggie = -1
+kalea > minotaur = -1
+
+selena Selena mid, roam
+selena > x.borg = 2
+selena > natan = 1
+selena > gord = 1
+selena > benedetta = 1
+selena > bruno = 1
+selena > layla = 1
+selena > baxia = 1
+selena > alpha = 1
+selena > balmond = 1
+selena > aulus = 1
+selena > popol = -2
+selena > wanwan = -2
+selena > khufra = -2
+selena > miya = -2
+selena > alucard = -1
+
+esmeralda Esmeralda exp
+esmeralda > argus = 2
+esmeralda > lolita = 2
+esmeralda > mathilda = 2
+esmeralda > akai = 2
+esmeralda > lapulapu = 2
+esmeralda > aldous = 2
+esmeralda > dyrroth = -2
+esmeralda > lunox = -2
+esmeralda > karrie = -2
+esmeralda > aulus = -2
+esmeralda > wanwan = -2
+esmeralda > lesley = -2
+
+chou Chou exp, roam
+chou > x.borg = 2
+chou > hanzo = 2
+chou > yve = 2
+chou > luoyi = 2
+chou > gord = 2
+chou > beatrix = 1
+chou > natalia = 1
+chou > fanny = 1
+chou > ixia = 1
+chou > terizla = 1
+chou > alpha = 1
+chou > esmeralda = -2
+chou > cyclops = -2
+chou > phoveus = -2
+chou > valentina = -2
+chou > eudora = -1
+chou > lesley = -1
+chou > pharsa = -1
+
+harith Harith gold, mid
+harith > lolita = 2
+harith > yve = 2
+harith > novaria = 2
+harith > kadita = 2
+harith > lapulapu = 2
+harith > kagura = 2
+harith > argus = 2
+harith > joy = 2
+harith > belerick = 1
+harith > johnson = 1
+harith > phoveus = -2
+harith > edith = -2
+harith > minsitthar = -2
+harith > karrie = -2
+harith > diggie = -2
+harith > pharsa = -2
+
+dyrroth Dyrroth jungle, exp
+dyrroth > esmeralda = 2
+dyrroth > uranus = 2
+dyrroth > alucard = 2
+dyrroth > aldous = 1
+dyrroth > alice = 1
+dyrroth > fredrinn = 1
+dyrroth > obsidia = 1
+dyrroth > gord = 1
+dyrroth > hanabi = 1
+dyrroth > argus = -1
+dyrroth > chip = -1
+dyrroth > khufra = -1
+dyrroth > lylia = -1
+dyrroth > minsitthar = -1
+dyrroth > vexana = -1
+dyrroth > belerick = -1
+
+balmond Balmond jungle, exp
+balmond > barats = 2
+balmond > baxia = 2
+balmond > kalea = 2
+balmond > bruno = 2
+balmond > fredrinn = 2
+balmond > saber = 1
+balmond > martis = 1
+balmond > miya = 1
+balmond > layla = 1
+balmond > eudora = 1
+balmond > angela = -2
+balmond > aulus = -2
+balmond > cici = -2
+balmond > estes = -2
+balmond > x.borg = -2
+balmond > lesley = -1
+balmond > irithel = -1
+
+mathilda Mathilda roam
+mathilda > kalea = 2
+mathilda > argus = 2
+mathilda > alpha = 2
+mathilda > baxia = 2
+mathilda > gatotkaca = 2
+mathilda > x.borg = 2
+mathilda > luoyi = 2
+mathilda > hylos = 2
+mathilda > atlas = 2
+mathilda > lylia = 2
+mathilda > gord = 2
+mathilda > vale = 2
+mathilda > edith = -2
+mathilda > popol = -2
+mathilda > yve = -2
+mathilda > lunox = -2
+mathilda > phoveus = -2
+mathilda > franco = -2
+mathilda > minsitthar = -2
+
+fanny Fanny jungle
+fanny > yve = 2
+fanny > granger = 2
+fanny > gloo = 2
+fanny > carmilla = 2
+fanny > x.borg = 2
+fanny > atlas = 1
+fanny > lolita = 1
+fanny > baxia = 1
+fanny > karrie = 1
+fanny > irithel = 1
+fanny > bruno = -2
+fanny > brody = -2
+fanny > faramis = -2
+fanny > zilong = -2
+fanny > moskov = -2
+fanny > kaja = -2
+fanny > khufra = -2
+
+lancelot Lancelot jungle
+lancelot > atlas = 2
+lancelot > baxia = 2
+lancelot > x.borg = 1
+lancelot > alpha = 1
+lancelot > vale = 1
+lancelot > vexana = 1
+lancelot > cecilion = 1
+lancelot > pharsa = 1
+lancelot > angela = -2
+lancelot > irithel = -2
+lancelot > cyclops = -2
+lancelot > saber = -1
+lancelot > estes = -1
+lancelot > minsitthar = -1
+lancelot > phoveus = -1
+
+valentina Valentina mid
+valentina > faramis = 2
+valentina > atlas = 2
+valentina > lunox = 2
+valentina > ling = 2
+valentina > carmilla = 2
+valentina > x.borg = 2
+valentina > nolan = 2
+valentina > yve = 2
+valentina > hanabi = 2
+valentina > khufra = -2
+valentina > phoveus = -2
+valentina > kalea = -2
+valentina > chip = -2
+valentina > lolita = -2
+valentina > hayabusa = -2
+valentina > natalia = -2
+valentina > hanzo = -2
+
+granger Granger gold
+granger > karina = 2
+granger > ixia = 2
+granger > hanabi = 2
+granger > belerick = 2
+granger > beatrix = 2
+granger > natan = 1
+granger > argus = 1
+granger > change = 1
+granger > cecilion = 1
+granger > fanny = -2
+granger > ling = -2
+granger > mathilda = -2
+granger > hilda = -2
+granger > gloo = -2
+granger > saber = -2
+granger > hayabusa = -2

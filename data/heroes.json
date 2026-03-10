@@ -1,0 +1,682 @@
+[
+  {
+    "id": "aamon",
+    "name": "Aamon",
+    "role": "Jungle"
+  },
+  {
+    "id": "akai",
+    "name": "Akai",
+    "role": "Roam"
+  },
+  {
+    "id": "aldous",
+    "name": "Aldous",
+    "role": "Exp"
+  },
+  {
+    "id": "alice",
+    "name": "Alice",
+    "role": "Exp",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "alpha",
+    "name": "Alpha",
+    "role": "Jungle",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "alucard",
+    "name": "Alucard",
+    "role": "Jungle"
+  },
+  {
+    "id": "angela",
+    "name": "Angela",
+    "role": "Roam"
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "role": "Exp"
+  },
+  {
+    "id": "arlott",
+    "name": "Arlott",
+    "role": "Exp"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "role": "Roam"
+  },
+  {
+    "id": "aulus",
+    "name": "Aulus",
+    "role": "Jungle"
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "role": "Mid"
+  },
+  {
+    "id": "badang",
+    "name": "Badang",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "balmond",
+    "name": "Balmond",
+    "role": "Jungle",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "bane",
+    "name": "Bane",
+    "role": "Jungle",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "barats",
+    "name": "Barats",
+    "role": "Jungle"
+  },
+  {
+    "id": "baxia",
+    "name": "Baxia",
+    "role": "Jungle"
+  },
+  {
+    "id": "beatrix",
+    "name": "Beatrix",
+    "role": "Gold"
+  },
+  {
+    "id": "belerick",
+    "name": "Belerick",
+    "role": "Roam"
+  },
+  {
+    "id": "benedetta",
+    "name": "Benedetta",
+    "role": "Exp",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "brody",
+    "name": "Brody",
+    "role": "Gold"
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "role": "Gold"
+  },
+  {
+    "id": "carmilla",
+    "name": "Carmilla",
+    "role": "Roam"
+  },
+  {
+    "id": "cecilion",
+    "name": "Cecilion",
+    "role": "Mid"
+  },
+  {
+    "id": "change",
+    "name": "Chang'e",
+    "role": "Mid"
+  },
+  {
+    "id": "chip",
+    "name": "Chip",
+    "role": "Roam"
+  },
+  {
+    "id": "chou",
+    "name": "Chou",
+    "role": "Exp",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "cici",
+    "name": "Cici",
+    "role": "Exp"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "role": "Gold"
+  },
+  {
+    "id": "clint",
+    "name": "Clint",
+    "role": "Gold"
+  },
+  {
+    "id": "cyclops",
+    "name": "Cyclops",
+    "role": "Mid"
+  },
+  {
+    "id": "diggie",
+    "name": "Diggie",
+    "role": "Roam"
+  },
+  {
+    "id": "dyrroth",
+    "name": "Dyrroth",
+    "role": "Jungle",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "edith",
+    "name": "Edith",
+    "role": "Exp",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "esmeralda",
+    "name": "Esmeralda",
+    "role": "Exp"
+  },
+  {
+    "id": "estes",
+    "name": "Estes",
+    "role": "Roam"
+  },
+  {
+    "id": "eudora",
+    "name": "Eudora",
+    "role": "Mid"
+  },
+  {
+    "id": "fanny",
+    "name": "Fanny",
+    "role": "Jungle"
+  },
+  {
+    "id": "faramis",
+    "name": "Faramis",
+    "role": "Mid"
+  },
+  {
+    "id": "floryn",
+    "name": "Floryn",
+    "role": "Roam"
+  },
+  {
+    "id": "franco",
+    "name": "Franco",
+    "role": "Roam"
+  },
+  {
+    "id": "fredrinn",
+    "name": "Fredrinn",
+    "role": "Jungle"
+  },
+  {
+    "id": "freya",
+    "name": "Freya",
+    "role": "Exp",
+    "roles": ["Jungle", "Gold", "Exp"]
+  },
+  {
+    "id": "gatotkaca",
+    "name": "Gatotkaca",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "gloo",
+    "name": "Gloo",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "gord",
+    "name": "Gord",
+    "role": "Mid"
+  },
+  {
+    "id": "granger",
+    "name": "Granger",
+    "role": "Gold"
+  },
+  {
+    "id": "grock",
+    "name": "Grock",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "guinevere",
+    "name": "Guinevere",
+    "role": "Exp"
+  },
+  {
+    "id": "gusion",
+    "name": "Gusion",
+    "role": "Mid",
+    "roles": ["Jungle", "Mid"]
+  },
+  {
+    "id": "hanabi",
+    "name": "Hanabi",
+    "role": "Gold"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "role": "Jungle"
+  },
+  {
+    "id": "harith",
+    "name": "Harith",
+    "role": "Gold",
+    "roles": ["Mid", "Gold"]
+  },
+  {
+    "id": "harley",
+    "name": "Harley",
+    "role": "Jungle"
+  },
+  {
+    "id": "hayabusa",
+    "name": "Hayabusa",
+    "role": "Jungle"
+  },
+  {
+    "id": "helcurt",
+    "name": "Helcurt",
+    "roles": ["Jungle", "Roam"]
+  },
+  {
+    "id": "hilda",
+    "name": "Hilda",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "hylos",
+    "name": "Hylos",
+    "role": "Roam"
+  },
+  {
+    "id": "irithel",
+    "name": "Irithel",
+    "role": "Gold"
+  },
+  {
+    "id": "ixia",
+    "name": "Ixia",
+    "role": "Gold"
+  },
+  {
+    "id": "jawhead",
+    "name": "Jawhead",
+    "role": "Roam",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "johnson",
+    "name": "Johnson",
+    "role": "Roam"
+  },
+  {
+    "id": "joy",
+    "name": "Joy",
+    "role": "Jungle"
+  },
+  {
+    "id": "julian",
+    "name": "Julian",
+    "role": "Jungle"
+  },
+  {
+    "id": "kadita",
+    "name": "Kadita",
+    "role": "Mid"
+  },
+  {
+    "id": "kagura",
+    "name": "Kagura",
+    "role": "Mid"
+  },
+  {
+    "id": "kaja",
+    "name": "Kaja",
+    "role": "Roam"
+  },
+  {
+    "id": "kalea",
+    "name": "Kalea",
+    "role": "Roam"
+  },
+  {
+    "id": "karina",
+    "name": "Karina",
+    "role": "Jungle"
+  },
+  {
+    "id": "karrie",
+    "name": "Karrie",
+    "role": "Gold"
+  },
+  {
+    "id": "khaleed",
+    "name": "Khaleed",
+    "role": "Exp",
+    "roles": ["Roam", "Exp"]
+  },
+  {
+    "id": "khufra",
+    "name": "Khufra",
+    "role": "Roam"
+  },
+  {
+    "id": "kimmy",
+    "name": "Kimmy",
+    "role": "Gold",
+    "roles": ["Mid", "Gold"]
+  },
+  {
+    "id": "lancelot",
+    "name": "Lancelot",
+    "role": "Jungle"
+  },
+  {
+    "id": "lapulapu",
+    "name": "Lapu-Lapu",
+    "role": "Exp"
+  },
+  {
+    "id": "layla",
+    "name": "Layla",
+    "role": "Gold"
+  },
+  {
+    "id": "leomord",
+    "name": "Leomord",
+    "role": "Jungle"
+  },
+  {
+    "id": "lesley",
+    "name": "Lesley",
+    "role": "Gold"
+  },
+  {
+    "id": "ling",
+    "name": "Ling",
+    "role": "Jungle"
+  },
+  {
+    "id": "lolita",
+    "name": "Lolita",
+    "role": "Roam"
+  },
+  {
+    "id": "lukas",
+    "name": "Lukas",
+    "role": "Exp",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "lunox",
+    "name": "Lunox",
+    "role": "Mid"
+  },
+  {
+    "id": "luoyi",
+    "name": "Luo Yi",
+    "role": "Mid"
+  },
+  {
+    "id": "lylia",
+    "name": "Lylia",
+    "role": "Mid"
+  },
+  {
+    "id": "martis",
+    "name": "Martis",
+    "role": "Jungle"
+  },
+  {
+    "id": "masha",
+    "name": "Masha",
+    "role": "Exp"
+  },
+  {
+    "id": "mathilda",
+    "name": "Mathilda",
+    "role": "Roam"
+  },
+  {
+    "id": "melissa",
+    "name": "Melissa",
+    "role": "Gold"
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "role": "Roam"
+  },
+  {
+    "id": "minsitthar",
+    "name": "Minsitthar",
+    "role": "Exp"
+  },
+  {
+    "id": "miya",
+    "name": "Miya",
+    "role": "Gold"
+  },
+  {
+    "id": "moskov",
+    "name": "Moskov",
+    "role": "Gold"
+  },
+  {
+    "id": "nana",
+    "name": "Nana",
+    "role": "Mid"
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "role": "Jungle",
+    "roles": ["Roam", "Jungle"]
+  },
+  {
+    "id": "natan",
+    "name": "Natan",
+    "role": "Gold"
+  },
+  {
+    "id": "nolan",
+    "name": "Nolan",
+    "role": "Jungle"
+  },
+  {
+    "id": "novaria",
+    "name": "Novaria",
+    "role": "Mid"
+  },
+  {
+    "id": "obsidia",
+    "name": "Obsidia",
+    "role": "Gold"
+  },
+  {
+    "id": "odette",
+    "name": "Odette",
+    "role": "Mid"
+  },
+  {
+    "id": "paquito",
+    "name": "Paquito",
+    "role": "Exp"
+  },
+  {
+    "id": "pharsa",
+    "name": "Pharsa",
+    "role": "Mid"
+  },
+  {
+    "id": "phoveus",
+    "name": "Phoveus",
+    "role": "Exp"
+  },
+  {
+    "id": "popol",
+    "name": "Popol and Kupa",
+    "role": "Jungle",
+    "roles": ["Jungle", "Gold"]
+  },
+  {
+    "id": "rafaela",
+    "name": "Rafaela",
+    "role": "Roam"
+  },
+  {
+    "id": "roger",
+    "name": "Roger",
+    "role": "Jungle"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "role": "Exp"
+  },
+  {
+    "id": "saber",
+    "name": "Saber",
+    "roles": ["Roam", "Jungle"]
+  },
+  {
+    "id": "selena",
+    "name": "Selena",
+    "role": "Mid",
+    "roles": ["Roam", "Mid"]
+  },
+  {
+    "id": "silvanna",
+    "name": "Silvanna",
+    "role": "Exp"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "role": "Exp"
+  },
+  {
+    "id": "sun",
+    "name": "Sun",
+    "role": "Exp",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "suyou",
+    "name": "Suyou",
+    "role": "Jungle"
+  },
+  {
+    "id": "terizla",
+    "name": "Terizla",
+    "role": "Exp"
+  },
+  {
+    "id": "thamuz",
+    "name": "Thamuz",
+    "role": "Exp"
+  },
+  {
+    "id": "tigreal",
+    "name": "Tigreal",
+    "role": "Roam"
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "role": "Exp"
+  },
+  {
+    "id": "vale",
+    "name": "Vale",
+    "role": "Mid"
+  },
+  {
+    "id": "valentina",
+    "name": "Valentina",
+    "role": "Mid"
+  },
+  {
+    "id": "valir",
+    "name": "Valir",
+    "role": "Mid"
+  },
+  {
+    "id": "vexana",
+    "name": "Vexana",
+    "role": "Mid"
+  },
+  {
+    "id": "wanwan",
+    "name": "Wanwan",
+    "role": "Gold"
+  },
+  {
+    "id": "x.borg",
+    "name": "X.Borg",
+    "role": "Exp"
+  },
+  {
+    "id": "xavier",
+    "name": "Xavier",
+    "role": "Mid"
+  },
+  {
+    "id": "yisunshin",
+    "name": "Yi Sun-shin",
+    "role": "Jungle"
+  },
+  {
+    "id": "yin",
+    "name": "Yin",
+    "role": "Jungle",
+    "roles": ["Jungle", "Exp"]
+  },
+  {
+    "id": "yuzhong",
+    "name": "Yu Zhong",
+    "role": "Exp"
+  },
+  {
+    "id": "yve",
+    "name": "Yve",
+    "role": "Mid"
+  },
+  {
+    "id": "zetian",
+    "name": "Zetian",
+    "role": "Mid"
+  },
+  {
+    "id": "zhask",
+    "name": "Zhask",
+    "role": "Mid"
+  },
+  {
+    "id": "zhuxin",
+    "name": "Zhuxin",
+    "role": "Mid"
+  },
+  {
+    "id": "zilong",
+    "name": "Zilong",
+    "role": "Exp"
+  }
+]

@@ -1,0 +1,192 @@
+import { getIconUrl } from "./icons.js";
+import { getHeroRoles, heroesShareRole, ROLE_ORDER, state } from "./state.js";
+import { attachImageFallback, escapeHtml, initials } from "./render-shared.js";
+
+let activeTab = ROLE_ORDER[0];
+
+export function setActiveTab(role) {
+  activeTab = ROLE_ORDER.includes(role) ? role : ROLE_ORDER[0];
+}
+
+function scoreHero(hero) {
+  let score = 0;
+  const reasons = [];
+
+  for (const enemyId of state.enemyPicks) {
+    const value = state.counterMap[hero.id]?.[enemyId] ?? 0;
+    score += value;
+    if (value) {
+      reasons.push({
+        label: state.heroById[enemyId]?.name ?? enemyId,
+        value,
+      });
+    }
+  }
+
+  for (const allyId of state.allyPicks) {
+    const allyHero = state.heroById[allyId];
+    if (!allyHero) {
+      continue;
+    }
+    if (heroesShareRole(hero, allyHero)) {
+      score -= 2;
+      reasons.push({
+        label: `${allyHero.name} (${getHeroRoles(allyHero).join("/")})`,
+        value: -2,
+      });
+    }
+  }
+
+  reasons.sort((a, b) => Math.abs(b.value) - Math.abs(a.value));
+  return { score, reasons };
+}
+
+function topByRole() {
+  const groups = Object.fromEntries(ROLE_ORDER.map((role) => [role, []]));
+
+  if (!state.enemyPicks.length) {
+    return groups;
+  }
+
+  const unavailable = new Set([
+    ...state.allyPicks,
+    ...state.enemyPicks,
+    ...state.enemyBans,
+  ]);
+
+  for (const hero of state.heroes) {
+    if (unavailable.has(hero.id)) {
+      continue;
+    }
+    if (state.onlyMine && !state.myPool.has(hero.id)) {
+      continue;
+    }
+
+    const { score, reasons } = scoreHero(hero);
+    for (const role of getHeroRoles(hero)) {
+      if (groups[role]) {
+        groups[role].push({ hero, score, reasons });
+      }
+    }
+  }
+
+  for (const role of ROLE_ORDER) {
+    groups[role].sort((a, b) => b.score - a.score);
+    groups[role] = groups[role].slice(0, 3);
+  }
+
+  return groups;
+}
+
+function buildReasonHtml(reason) {
+  const cls = reason.value > 0 ? "pos" : "neg";
+  const sign = reason.value > 0 ? "+" : "";
+  return `<span class="rec-factor ${cls}"><span class="rec-factor-score">${sign}${reason.value}</span><span class="rec-factor-label">${escapeHtml(reason.label)}</span></span>`;
+}
+
+function buildSummary(reasons) {
+  const positive = reasons.filter((reason) => reason.value > 0).map((reason) => reason.label);
+  const negative = reasons.filter((reason) => reason.value < 0).map((reason) => reason.label);
+
+  if (positive.length >= 2) {
+    return `Хорош против: ${positive.slice(0, 2).join(", ")}`;
+  }
+  if (positive.length === 1) {
+    return `Сильный ответ на: ${positive[0]}`;
+  }
+  if (negative.length) {
+    return `Осторожно: конфликт с ${negative[0]}`;
+  }
+  return "Нейтральный вариант";
+}
+
+export function renderRecs(els) {
+  if (!state.enemyPicks.length) {
+    els.recsTabs.innerHTML = "";
+    els.recsContent.innerHTML =
+      '<div class="recs-empty"><div class="recs-empty-icon">⚔️</div>Добавь хотя бы 1 пик врага<br>и появятся рекомендации</div>';
+    return;
+  }
+
+  const byRole = topByRole();
+  els.recsTabs.innerHTML = "";
+
+  for (const role of ROLE_ORDER) {
+    const button = document.createElement("button");
+    button.className = "recs-tab" + (role === activeTab ? " active" : "");
+    button.type = "button";
+    button.textContent = role;
+    button.onclick = () => {
+      activeTab = role;
+      renderRecs(els);
+    };
+    els.recsTabs.appendChild(button);
+  }
+
+  const items = (byRole[activeTab] || []).filter((item) => item.score > 0);
+  els.recsContent.innerHTML = "";
+
+  if (!items.length) {
+    els.recsContent.innerHTML = `<div class="recs-empty">${
+      state.onlyMine
+        ? "Среди ваших героев нет сильного контрпика для этой роли"
+        : "Для этой роли сейчас нет сильного контрпика"
+    }</div>`;
+    return;
+  }
+
+  const maxAbs = Math.max(...items.map((item) => Math.abs(item.score)), 1);
+  const BAR_MAX = 90;
+
+  items.forEach(({ hero, score, reasons }, index) => {
+    const scoreClass = score > 0 ? "sc-pos" : score < 0 ? "sc-neg" : "sc-zero";
+    const width = Math.round((Math.abs(score) / maxAbs) * BAR_MAX);
+    const sign = score > 0 ? "+" : "";
+    const shownReasons = reasons.slice(0, 4);
+    const summary = buildSummary(reasons);
+    const roleBadges = getHeroRoles(hero)
+      .map((role) => `<div class="hero-role-badge rb-${escapeHtml(role)}">${escapeHtml(role)}</div>`)
+      .join("");
+    const why = shownReasons.length
+      ? shownReasons.map(buildReasonHtml).join("")
+      : '<span class="rec-factor-empty">нет данных</span>';
+    const note =
+      reasons.length > shownReasons.length
+        ? `Показано ${shownReasons.length} из ${reasons.length} причин`
+        : "";
+
+    const iconUrl = getIconUrl(hero.id);
+    const card = document.createElement("div");
+    card.className = "rec-card";
+    card.dataset.role = hero.role;
+    card.innerHTML = `
+      <div class="rec-rank rr-${index + 1}">${index + 1}</div>
+      <div class="rec-ava">
+        ${iconUrl ? `<img referrerpolicy="no-referrer" src="${escapeHtml(iconUrl)}" alt="${escapeHtml(hero.name)}">` : ""}
+        <div class="rec-ava-init" style="${iconUrl ? "display:none" : ""}">${escapeHtml(initials(hero.name))}</div>
+      </div>
+      <div class="rec-info">
+        <div class="rec-name">${escapeHtml(hero.name)}</div>
+        <div class="hero-role-list hero-role-list-rec">${roleBadges}</div>
+        <div class="rec-summary">${escapeHtml(summary)}</div>
+        <div class="rec-why">${why}</div>
+        ${note ? `<div class="rec-note">${escapeHtml(note)}</div>` : ""}
+      </div>
+      <div class="rec-score-col">
+        <div class="rec-score ${scoreClass}">${sign}${score}</div>
+        <div class="score-bar-wrap"><div class="score-bar ${scoreClass}" style="width:${width}%"></div></div>
+      </div>
+    `;
+
+    const image = card.querySelector(".rec-ava img");
+    attachImageFallback(image, () => {
+      image.style.display = "none";
+      const fallback = card.querySelector(".rec-ava-init");
+      if (fallback) {
+        fallback.style.display = "flex";
+      }
+    });
+
+    els.recsContent.appendChild(card);
+  });
+}

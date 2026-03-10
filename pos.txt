@@ -1,0 +1,27 @@
+gloo Gloo roam, exp
+sun Sun exp, jungle
+hilda Hilda roam, exp
+freya Freya exp, jungle, gold
+popol Popol and Kupa jungle, gold
+benedetta Benedetta exp, jungle
+bane Bane jungle, exp
+khaleed Khaleed exp, roam
+natalia Natalia jungle, roam
+edith Edith exp, roam
+alice Alice exp, jungle
+badang Badang roam, exp
+gusion Gusion mid, jungle
+grock Grock roam, exp
+yin Yin jungle, exp
+lukas Lukas exp, jungle
+jawhead Jawhead roam, exp
+alpha Alpha jungle, exp
+kimmy Kimmy gold, mid
+gatotkaca Gatotkaca roam, exp
+selena Selena mid, roam
+chou Chou exp, roam
+harith Harith gold, mid
+dyrroth Dyrroth jungle, exp
+balmond Balmond jungle, exp
+
+rafaela kontrit natalia
