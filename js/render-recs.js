@@ -84,22 +84,6 @@ function buildReasonHtml(reason) {
   return `<span class="rec-factor ${cls}"><span class="rec-factor-score">${sign}${reason.value}</span><span class="rec-factor-label">${escapeHtml(reason.label)}</span></span>`;
 }
 
-function buildSummary(reasons) {
-  const positive = reasons.filter((reason) => reason.value > 0).map((reason) => reason.label);
-  const negative = reasons.filter((reason) => reason.value < 0).map((reason) => reason.label);
-
-  if (positive.length >= 2) {
-    return `Good against: ${positive.slice(0, 2).join(", ")}`;
-  }
-  if (positive.length === 1) {
-    return `Strong answer to: ${positive[0]}`;
-  }
-  if (negative.length) {
-    return `Caution: role overlap with ${negative[0]}`;
-  }
-  return "Neutral option";
-}
-
 export function renderRecs(els) {
   if (!state.enemyPicks.length) {
     els.recsTabs.innerHTML = "";
@@ -143,7 +127,6 @@ export function renderRecs(els) {
     const width = Math.round((Math.abs(score) / maxAbs) * BAR_MAX);
     const sign = score > 0 ? "+" : "";
     const shownReasons = reasons.slice(0, 4);
-    const summary = buildSummary(reasons);
     const roleBadges = getHeroRoles(hero)
       .map((role) => `<div class="hero-role-badge rb-${escapeHtml(role)}">${escapeHtml(role)}</div>`)
       .join("");
@@ -166,9 +149,10 @@ export function renderRecs(els) {
         <div class="rec-ava-init" style="${iconUrl ? "display:none" : ""}">${escapeHtml(initials(hero.name))}</div>
       </div>
       <div class="rec-info">
-        <div class="rec-name">${escapeHtml(hero.name)}</div>
-        <div class="hero-role-list hero-role-list-rec">${roleBadges}</div>
-        <div class="rec-summary">${escapeHtml(summary)}</div>
+        <div class="rec-head">
+          <div class="rec-name">${escapeHtml(hero.name)}</div>
+          <div class="hero-role-list hero-role-list-rec">${roleBadges}</div>
+        </div>
         <div class="rec-why">${why}</div>
         ${note ? `<div class="rec-note">${escapeHtml(note)}</div>` : ""}
       </div>
