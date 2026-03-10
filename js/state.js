@@ -13,6 +13,7 @@ const LS_ONLY_MINE_KEY_LEGACY = "mlbb_only_mine_v1";
 export const state = {
   heroes: [],
   counterMap: Object.create(null),
+  synergyMap: Object.create(null),
   heroById: Object.create(null),
 
   allyPicks: [],

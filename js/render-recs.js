@@ -1,5 +1,5 @@
 import { getIconUrl } from "./icons.js";
-import { getHeroRoles, heroesShareRole, ROLE_ORDER, state } from "./state.js";
+import { getHeroRoles, ROLE_ORDER, state } from "./state.js";
 import { attachImageFallback, escapeHtml, initials } from "./render-shared.js";
 
 let activeTab = ROLE_ORDER[0];
@@ -28,17 +28,64 @@ function scoreHero(hero) {
     if (!allyHero) {
       continue;
     }
-    if (heroesShareRole(hero, allyHero)) {
-      score -= 2;
+    const value = state.synergyMap[hero.id]?.[allyId] ?? 0;
+    if (value) {
+      score += value;
       reasons.push({
-        label: `${allyHero.name} (${getHeroRoles(allyHero).join("/")})`,
-        value: -2,
+        label: `${allyHero.name} synergy`,
+        value,
       });
     }
   }
 
   reasons.sort((a, b) => Math.abs(b.value) - Math.abs(a.value));
   return { score, reasons };
+}
+
+function positiveReasonLabels(item) {
+  return item.reasons
+    .filter((reason) => reason.value > 0)
+    .map((reason) => reason.label);
+}
+
+function overlapPenalty(candidate, selected) {
+  const candidateLabels = new Set(positiveReasonLabels(candidate));
+  let penalty = 0;
+
+  for (const item of selected) {
+    const seen = positiveReasonLabels(item);
+    const shared = seen.filter((label) => candidateLabels.has(label)).length;
+    if (shared >= 2) {
+      penalty += 1.5;
+    } else if (shared === 1) {
+      penalty += 0.75;
+    }
+  }
+
+  return penalty;
+}
+
+function pickDiverseTop(items, limit = 3) {
+  const pool = [...items].sort((a, b) => b.score - a.score);
+  const selected = [];
+
+  while (pool.length && selected.length < limit) {
+    let bestIndex = 0;
+    let bestValue = -Infinity;
+
+    for (let index = 0; index < pool.length; index += 1) {
+      const candidate = pool[index];
+      const adjustedScore = candidate.score - overlapPenalty(candidate, selected);
+      if (adjustedScore > bestValue) {
+        bestValue = adjustedScore;
+        bestIndex = index;
+      }
+    }
+
+    selected.push(pool.splice(bestIndex, 1)[0]);
+  }
+
+  return selected;
 }
 
 function topByRole() {
@@ -72,7 +119,7 @@ function topByRole() {
 
   for (const role of ROLE_ORDER) {
     groups[role].sort((a, b) => b.score - a.score);
-    groups[role] = groups[role].slice(0, 3);
+    groups[role] = pickDiverseTop(groups[role], 3);
   }
 
   return groups;
@@ -141,6 +188,9 @@ export function renderRecs(els) {
     const iconUrl = getIconUrl(hero.id);
     const card = document.createElement("div");
     card.className = "rec-card";
+    if (index === 0) {
+      card.classList.add("rec-card-top");
+    }
     card.dataset.role = hero.role;
     card.innerHTML = `
       <div class="rec-rank rr-${index + 1}">${index + 1}</div>

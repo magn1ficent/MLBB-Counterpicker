@@ -1,5 +1,6 @@
 import { loadIcons } from "./icons.js";
 import {
+  buildSynergyMap,
   buildCounterMap,
   renderDraft,
   renderGrid,
@@ -135,14 +136,16 @@ function bindEvents() {
 
 async function init() {
   try {
-    const [heroes, counters] = await Promise.all([
+    const [heroes, counters, synergies] = await Promise.all([
       fetchJson("./data/heroes.json"),
       fetchJson("./data/counters.json"),
+      fetchJson("./data/synergies.json"),
     ]);
 
     await loadIcons();
     state.heroes = heroes;
     state.counterMap = buildCounterMap(counters);
+    state.synergyMap = buildSynergyMap(synergies);
     state.heroById = Object.create(null);
 
     for (const hero of heroes) {

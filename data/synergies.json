@@ -1,0 +1,12 @@
+[
+  {
+    "hero": "leomord",
+    "ally": "angela",
+    "value": 3
+  },
+  {
+    "hero": "angela",
+    "ally": "leomord",
+    "value": 2
+  }
+]

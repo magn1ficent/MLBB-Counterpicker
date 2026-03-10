@@ -19,6 +19,21 @@ export function buildCounterMap(edges) {
   return map;
 }
 
+export function buildSynergyMap(edges) {
+  const map = Object.create(null);
+  for (const edge of edges) {
+    const { hero, ally, value } = edge;
+    if (!hero || !ally || typeof value !== "number") {
+      continue;
+    }
+    if (!map[hero]) {
+      map[hero] = Object.create(null);
+    }
+    map[hero][ally] = value;
+  }
+  return map;
+}
+
 export function renderGrid(els, callbacks) {
   renderHeroes(els, callbacks);
 }
