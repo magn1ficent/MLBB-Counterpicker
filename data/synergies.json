@@ -1,12 +1,69 @@
 [
-  {
-    "hero": "leomord",
-    "ally": "angela",
-    "value": 2
-  },
-  {
-    "hero": "angela",
-    "ally": "leomord",
-    "value": 2
-  }
+  { "hero": "leomord", "ally": "angela", "value": 3 },
+  { "hero": "angela", "ally": "leomord", "value": 3 },
+
+  { "hero": "aldous", "ally": "angela", "value": 3 },
+  { "hero": "angela", "ally": "aldous", "value": 3 },
+
+  { "hero": "mathilda", "ally": "odette", "value": 3 },
+  { "hero": "odette", "ally": "mathilda", "value": 3 },
+
+  { "hero": "leomord", "ally": "atlas", "value": 2 },
+  { "hero": "atlas", "ally": "leomord", "value": 2 },
+  { "hero": "leomord", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "leomord", "value": 2 },
+  { "hero": "leomord", "ally": "franco", "value": 2 },
+  { "hero": "franco", "ally": "leomord", "value": 2 },
+
+  { "hero": "mathilda", "ally": "tigreal", "value": 2 },
+  { "hero": "tigreal", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "angela", "value": 2 },
+  { "hero": "angela", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "estes", "value": 2 },
+  { "hero": "estes", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "harith", "value": 2 },
+  { "hero": "harith", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "moskov", "value": 2 },
+  { "hero": "moskov", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "vexana", "value": 2 },
+  { "hero": "vexana", "ally": "mathilda", "value": 2 },
+
+  { "hero": "alice", "ally": "tigreal", "value": 2 },
+  { "hero": "tigreal", "ally": "alice", "value": 2 },
+  { "hero": "alice", "ally": "atlas", "value": 2 },
+  { "hero": "atlas", "ally": "alice", "value": 2 },
+  { "hero": "alice", "ally": "angela", "value": 2 },
+  { "hero": "angela", "ally": "alice", "value": 2 },
+  { "hero": "alice", "ally": "estes", "value": 2 },
+  { "hero": "estes", "ally": "alice", "value": 2 },
+  { "hero": "alice", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "alice", "value": 2 },
+
+  { "hero": "luoyi", "ally": "barats", "value": 2 },
+  { "hero": "barats", "ally": "luoyi", "value": 2 },
+  { "hero": "johnson", "ally": "badang", "value": 2 },
+  { "hero": "badang", "ally": "johnson", "value": 2 },
+  { "hero": "tigreal", "ally": "pharsa", "value": 2 },
+  { "hero": "pharsa", "ally": "tigreal", "value": 2 },
+  { "hero": "kaja", "ally": "karrie", "value": 2 },
+  { "hero": "karrie", "ally": "kaja", "value": 2 },
+
+  { "hero": "martis", "ally": "angela", "value": 2 },
+  { "hero": "angela", "ally": "martis", "value": 2 },
+  { "hero": "ling", "ally": "angela", "value": 2 },
+  { "hero": "angela", "ally": "ling", "value": 2 },
+  { "hero": "barats", "ally": "estes", "value": 2 },
+  { "hero": "estes", "ally": "barats", "value": 2 },
+  { "hero": "akai", "ally": "estes", "value": 2 },
+  { "hero": "estes", "ally": "akai", "value": 2 },
+  { "hero": "fredrinn", "ally": "mathilda", "value": 2 },
+  { "hero": "mathilda", "ally": "fredrinn", "value": 2 },
+  { "hero": "balmond", "ally": "rafaela", "value": 2 },
+  { "hero": "rafaela", "ally": "balmond", "value": 2 },
+  { "hero": "baxia", "ally": "rafaela", "value": 2 },
+  { "hero": "rafaela", "ally": "baxia", "value": 2 },
+  { "hero": "yin", "ally": "angela", "value": 2 },
+  { "hero": "angela", "ally": "yin", "value": 2 },
+  { "hero": "melissa", "ally": "tigreal", "value": 1 },
+  { "hero": "tigreal", "ally": "melissa", "value": 1 }
 ]
