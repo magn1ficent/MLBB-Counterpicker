@@ -17128,5 +17128,55 @@
     "hero": "marcel",
     "enemy": "kadita",
     "value": -2
+  },
+  {
+    "hero": "miya",
+    "enemy": "marcel",
+    "value": -2
+  },
+  {
+    "hero": "xavier",
+    "enemy": "marcel",
+    "value": -2
+  },
+  {
+    "hero": "vale",
+    "enemy": "marcel",
+    "value": -2
+  },
+  {
+    "hero": "valir",
+    "enemy": "marcel",
+    "value": -2
+  },
+  {
+    "hero": "layla",
+    "enemy": "marcel",
+    "value": -2
+  },
+  {
+    "hero": "valentina",
+    "enemy": "marcel",
+    "value": 2
+  },
+  {
+    "hero": "franco",
+    "enemy": "marcel",
+    "value": 2
+  },
+  {
+    "hero": "diggie",
+    "enemy": "marcel",
+    "value": 2
+  },
+  {
+    "hero": "lunox",
+    "enemy": "marcel",
+    "value": 2
+  },
+  {
+    "hero": "kadita",
+    "enemy": "marcel",
+    "value": 2
   }
 ]

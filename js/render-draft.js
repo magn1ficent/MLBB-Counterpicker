@@ -2,10 +2,10 @@ import { getIconUrl } from "./icons.js";
 import { state } from "./state.js";
 import { attachImageFallback, escapeHtml, initials } from "./render-shared.js";
 
-function renderRow(container, ids, type, onRemove) {
+function renderRow(container, ids, type, onRemove, totalSlots = 5) {
   container.innerHTML = "";
 
-  for (let index = 0; index < 5; index += 1) {
+  for (let index = 0; index < totalSlots; index += 1) {
     const heroId = ids[index];
     const hero = heroId ? state.heroById[heroId] : null;
     const slot = document.createElement("div");
@@ -45,9 +45,9 @@ function renderRow(container, ids, type, onRemove) {
 }
 
 export function renderDraft(els, callbacks) {
-  els.allyCount.textContent = `${state.allyPicks.length}/5`;
+  els.allyCount.textContent = `${state.allyPicks.length}/4`;
   els.pickCount.textContent = `${state.enemyPicks.length}/5`;
-  els.banCount.textContent = `${state.enemyBans.length}/5`;
+  els.banCount.textContent = `${state.enemyBans.length}/10`;
 
   els.allyCount.classList.remove("count-bounce");
   void els.allyCount.offsetWidth;
@@ -76,7 +76,7 @@ export function renderDraft(els, callbacks) {
     callbacks.renderDraft();
     callbacks.renderRecs();
     callbacks.renderGrid();
-  });
+  }, 4);
 
   renderRow(els.pickRow, state.enemyPicks, "pick", (id) => {
     state.enemyPicks = state.enemyPicks.filter((value) => value !== id);
@@ -90,5 +90,5 @@ export function renderDraft(els, callbacks) {
     callbacks.renderDraft();
     callbacks.renderRecs();
     callbacks.renderGrid();
-  });
+  }, 10);
 }

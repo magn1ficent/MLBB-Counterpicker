@@ -90,11 +90,6 @@ function pickDiverseTop(items, limit = 3) {
 
 function topByRole() {
   const groups = Object.fromEntries(ROLE_ORDER.map((role) => [role, []]));
-
-  if (!state.enemyPicks.length) {
-    return groups;
-  }
-
   const unavailable = new Set([
     ...state.allyPicks,
     ...state.enemyPicks,
@@ -132,10 +127,14 @@ function buildReasonHtml(reason) {
 }
 
 export function renderRecs(els) {
-  if (!state.enemyPicks.length) {
+  const hasEnemies = state.enemyPicks.length > 0;
+  const hasAllies = state.allyPicks.length > 0;
+  const synergyOnly = !hasEnemies && hasAllies;
+
+  if (!hasEnemies && !hasAllies) {
     els.recsTabs.innerHTML = "";
     els.recsContent.innerHTML =
-      '<div class="recs-empty"><div class="recs-empty-icon">⚔️</div>Add at least 1 enemy pick<br>to see recommendations</div>';
+      '<div class="recs-empty"><div class="recs-empty-icon">⚔️</div>Add at least 1 enemy pick or ally<br>to see recommendations</div>';
     return;
   }
 
@@ -159,9 +158,13 @@ export function renderRecs(els) {
 
   if (!items.length) {
     els.recsContent.innerHTML = `<div class="recs-empty">${
-      state.onlyMine
-        ? "No strong counterpick from your hero pool for this role"
-        : "No strong counterpick for this role right now"
+      synergyOnly
+        ? state.onlyMine
+          ? "No strong synergy pick from your hero pool for this role"
+          : "No strong synergy pick for this role right now"
+        : state.onlyMine
+          ? "No strong counterpick from your hero pool for this role"
+          : "No strong counterpick for this role right now"
     }</div>`;
     return;
   }

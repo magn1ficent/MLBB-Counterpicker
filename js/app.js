@@ -77,7 +77,7 @@ function fillDemo() {
 
   state.allyPicks = Array.from({ length: 4 }, pickUnique);
   state.enemyPicks = Array.from({ length: 5 }, pickUnique);
-  state.enemyBans = Array.from({ length: 5 }, pickUnique);
+  state.enemyBans = Array.from({ length: 10 }, pickUnique);
   renderAll();
 }
 

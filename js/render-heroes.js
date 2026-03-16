@@ -50,9 +50,9 @@ export function renderGrid(els, callbacks) {
       state.enemyBans.includes(hero.id);
     const starred = state.myPool.has(hero.id);
     const iconUrl = getIconUrl(hero.id);
-    const alliesFull = state.allyPicks.length >= 5;
+    const alliesFull = state.allyPicks.length >= 4;
     const picksFull = state.enemyPicks.length >= 5;
-    const bansFull = state.enemyBans.length >= 5;
+    const bansFull = state.enemyBans.length >= 10;
     const roleBadges = getHeroRoles(hero)
       .map((role) => `<div class="hero-role-badge rb-${escapeHtml(role)}">${escapeHtml(role)}</div>`)
       .join("");
