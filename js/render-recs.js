@@ -19,6 +19,7 @@ function scoreHero(hero) {
       reasons.push({
         label: state.heroById[enemyId]?.name ?? enemyId,
         value,
+        kind: "counter",
       });
     }
   }
@@ -32,8 +33,9 @@ function scoreHero(hero) {
     if (value) {
       score += value;
       reasons.push({
-        label: `${allyHero.name} synergy`,
+        label: allyHero.name,
         value,
+        kind: "synergy",
       });
     }
   }
@@ -121,9 +123,10 @@ function topByRole() {
 }
 
 function buildReasonHtml(reason) {
-  const cls = reason.value > 0 ? "pos" : "neg";
+  const tone = reason.value > 0 ? "pos" : "neg";
+  const kind = reason.kind === "synergy" ? "syn" : "ctr";
   const sign = reason.value > 0 ? "+" : "";
-  return `<span class="rec-factor ${cls}"><span class="rec-factor-score">${sign}${reason.value}</span><span class="rec-factor-label">${escapeHtml(reason.label)}</span></span>`;
+  return `<span class="rec-factor ${tone} ${kind}"><span class="rec-factor-score">${sign}${reason.value}</span><span class="rec-factor-label">${escapeHtml(reason.label)}</span></span>`;
 }
 
 export function renderRecs(els) {

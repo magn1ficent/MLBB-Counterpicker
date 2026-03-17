@@ -4,6 +4,7 @@ import { attachImageFallback, escapeHtml, initials } from "./render-shared.js";
 
 function renderRow(container, ids, type, onRemove, totalSlots = 5) {
   container.innerHTML = "";
+  container.classList.toggle("ban-row", type === "ban");
 
   for (let index = 0; index < totalSlots; index += 1) {
     const heroId = ids[index];
