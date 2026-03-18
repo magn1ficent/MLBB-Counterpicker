@@ -9,7 +9,7 @@ function renderRow(container, ids, type, onRemove, totalSlots = 5) {
   for (let index = 0; index < totalSlots; index += 1) {
     const heroId = ids[index];
     const hero = heroId ? state.heroById[heroId] : null;
-    const slot = document.createElement("div");
+    const slot = document.createElement(hero ? "button" : "div");
 
     if (!hero) {
       slot.className = "d-slot";
@@ -20,6 +20,11 @@ function renderRow(container, ids, type, onRemove, totalSlots = 5) {
 
     const iconUrl = getIconUrl(hero.id);
     slot.className = `d-slot ${type}-slot slot-pop`;
+    slot.type = "button";
+    slot.setAttribute(
+      "aria-label",
+      `Remove ${hero.name} from ${type === "ally" ? "allies" : type === "ban" ? "bans" : "enemy picks"}`,
+    );
     slot.innerHTML = `
       ${
         iconUrl
@@ -28,7 +33,7 @@ function renderRow(container, ids, type, onRemove, totalSlots = 5) {
       }
       <div class="d-slot-overlay"><div class="d-slot-name">${escapeHtml(hero.name)}</div></div>
       <div class="d-badge ${type}">${type === "pick" ? "PICK" : type === "ban" ? "BAN" : "ALLY"}</div>
-      <button class="d-remove" type="button" aria-label="Remove">×</button>
+      <div class="d-remove-hint" aria-hidden="true">Remove</div>
     `;
 
     const image = slot.querySelector(".d-slot-img");
@@ -40,7 +45,7 @@ function renderRow(container, ids, type, onRemove, totalSlots = 5) {
       );
     });
 
-    slot.querySelector(".d-remove").onclick = () => onRemove(heroId);
+    slot.onclick = () => onRemove(heroId);
     container.appendChild(slot);
   }
 }

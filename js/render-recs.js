@@ -129,6 +129,22 @@ function buildReasonHtml(reason) {
   return `<span class="rec-factor ${tone} ${kind}"><span class="rec-factor-score">${sign}${reason.value}</span><span class="rec-factor-label">${escapeHtml(reason.label)}</span></span>`;
 }
 
+function getTopReasonLabel(reasons) {
+  const hasCounter = reasons.some((reason) => reason.kind === "counter" && reason.value > 0);
+  const hasSynergy = reasons.some((reason) => reason.kind === "synergy" && reason.value > 0);
+
+  if (hasCounter && hasSynergy) {
+    return "Best overall";
+  }
+  if (hasCounter) {
+    return "Best counter fit";
+  }
+  if (hasSynergy) {
+    return "Best synergy fit";
+  }
+  return "Top pick";
+}
+
 export function renderRecs(els) {
   const hasEnemies = state.enemyPicks.length > 0;
   const hasAllies = state.allyPicks.length > 0;
@@ -190,6 +206,7 @@ export function renderRecs(els) {
       reasons.length > shownReasons.length
         ? `Showing ${shownReasons.length} of ${reasons.length} reasons`
         : "";
+    const topLabel = index === 0 ? getTopReasonLabel(reasons) : "";
 
     const iconUrl = getIconUrl(hero.id);
     const card = document.createElement("div");
@@ -209,6 +226,7 @@ export function renderRecs(els) {
           <div class="rec-name">${escapeHtml(hero.name)}</div>
           <div class="hero-role-list hero-role-list-rec">${roleBadges}</div>
         </div>
+        ${topLabel ? `<div class="rec-top-label">${escapeHtml(topLabel)}</div>` : ""}
         <div class="rec-why">${why}</div>
         ${note ? `<div class="rec-note">${escapeHtml(note)}</div>` : ""}
       </div>
